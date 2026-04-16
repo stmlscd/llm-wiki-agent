@@ -47,7 +47,13 @@ last_updated: 2026-04-14
 
 ### 4. 인프라 (Infrastructure)
 
-**[[DeploymentArchitecture]]**: 3중 환경 — 로컬 SQLite(오프라인 대회장), PythonAnywhere(예선 공개 조회), VPS Ubuntu+MySQL(전체 관리). **[[Sellma]]** 플랫폼의 m4sellma를 중앙 코드 동기화 허브로 사용. **주의**: m4sellma rsync는 백업용이며 VPS에 자동 배포되지 않음 — VPS 배포는 `scp root@115.68.177.35:/var/www/kettf/2026/52nd/` 별도 실행 필요. Flask 템플릿은 `app.py` 위치의 `templates/` 폴더만 사용(`templates/templates/` 중첩 경로는 미사용).
+**[[DeploymentArchitecture]]**: **2026-04-16 4중 환경으로 확장**:
+- 로컬 SQLite(오프라인 대회장) — 비활성
+- PythonAnywhere(예선 공개 조회) — 비활성
+- VPS community.sellma.kr:8000 (52nd Flask/gunicorn, kettf_tournament DB) — 구 시스템
+- **VPS tt-result.sellma.kr (FastAPI/uvicorn, kettf_db+kuttf_db)** — 신 통합 시스템
+
+tt-result 배포: Apache VirtualHost → 127.0.0.1:8100, Let's Encrypt SSL, systemd tt-result.service. DB 분리: tt_result(시스템), kettf_db(초등), kuttf_db(대학), ktta_db(협회). **DB 주의**: 8000포트=kettf_tournament, tt-result=kettf_db — 수정 전 반드시 대상 DB 확인.
 
 **[[PlayerVerification]]**: 활동제한·이적 선수 자동 검출. 다단 CSV 파싱 시 `csv.reader` + 컬럼 인덱스 방식 필수.
 
@@ -96,10 +102,11 @@ last_updated: 2026-04-14
 **[[UniversityLeague]]**: 탁구경기결과관리시스템(tt-result) 디자인 문서 APPROVED.
 - **첫 실전**: 대학연맹 대회 **2026-04-28 ~ 05-02** (D-14 = 2026-04-14)
 - **접근법**: Approach C (단계적 릴리스) — 모듈러 아키텍처 + 최소 기능 먼저
-- **Phase 1 상태**: **개발 완료, 실전 테스트 진행 중**. m4sellma uvicorn(8100/8101 SSL) 운영 중
+- **Phase 1 상태**: **VPS 배포 완료 (2026-04-16)**. https://tt-result.sellma.kr 운영 중
 - **테스트 서버**: Mac mini(192.168.1.202:8100) → `http://www.sellma.kr/`
-- **운영 서버**: VPS 115.68.177.35, MySQL kuttf_db (대회 시 배포)
-- **남은 작업**: VPS 배포 + 실전 운영 테스트 마무리 (4/28 전까지)
+- **운영 서버**: VPS tt-result.sellma.kr (Apache→uvicorn:8100, MySQL kuttf_db)
+- **완료된 작업**: 초등연맹 전체 이식, 대학연맹 데이터 이식(단체전 제외), 랭킹 6개 대회, 개인전 모달, 기록지, 관리자 기능, 기권 취소선
+- **남은 작업**: 실전 운영 테스트, 대학연맹 단체전 등록/대진, 52nd→tt-result 완전 전환
 - **Phase 2** (대회 후): 랭킹 통합, 시상, 코치 로그인, 선수 CRUD
 - **Phase 3**: 중고/실업 연맹 확장, KTTA 연동
 

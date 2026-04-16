@@ -259,3 +259,10 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **주요 내용**: Windows PostToolUse 훅 제거(깜빡임), 여자32강 11:12→11:13 수정(kettf_tournament DB), 탁구 규칙 검증 VPS 배포, llm-wiki-agent fork(stmlscd)
 - **업데이트**: `overview.md` TeamMatch DB 주의사항, `index.md` 소스·컨셉 추가, `FieldOperationLessons.md` 교훈#10
 - **모순**: 없음
+
+## [2026-04-16] ingest | tt-result.sellma.kr 배포 및 시스템 통합 전체 기록
+
+- **소스**: `sources/20260416-tt-result-deployment.md`
+- **주요 내용**: VPS 신규 배포(Apache+uvicorn+SSL), DB 이식(초등 전체+대학 선택적), 랭킹 6대회 통합+통합순위, 개인전 수정 모달(양 연맹), 기록지 버튼 복원, 관리자 기능(순위계산/기권/이동), 대학연맹 기권 취소선 방식, 탁구 점수 검증, llm-wiki-agent fork
+- **업데이트**: `overview.md` 인프라 4중 환경+Phase 1 완료, `index.md` 소스 추가
+- **모순**: 없음
