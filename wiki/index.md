@@ -23,6 +23,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260414 대통령기 점수 추가 및 랭킹 UI 업데이트](sources/20260414-ranking-president-cup-add.md) — 대통령기(R2) 추가, 147명 점수, VPS UI 컬럼 추가
 - [20260414 단체전 세트 점수 오류 수정 및 검증 로직](sources/20260414-team-score-validation.md) — 세트 스코어 2:0→3:0 수정, 탁구 점수 유효성 검증(듀스/오타) 추가
 - [20260414 tt-result 디자인 문서 확정](sources/20260414-tt-result-design.md) — 통합 시스템 Approach C 승인, 대학연맹 4/28~5/2 첫 실전
+- [20260416 MindVault 훅 정리 + 단체전 점수 수정](sources/20260416-mindvault-hook-score-fix.md) — Windows 훅 깜빡임 해결, 11:12→11:13 수정, 탁구 규칙 검증 추가
 
 ## Entities
 - [KETTF (한국초등탁구연맹)](entities/KETTF.md) — 회장기 대회 주최 기관, ITTF 규칙 채택
@@ -42,7 +43,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [PrintDisplay (인쇄 표시 개선)](concepts/PrintDisplay.md) — 인쇄 템플릿 is32 패턴, 두 줄 flex 레이아웃, 학교명 축약
 - [PlayerRanking (선수 랭킹 시스템)](concepts/PlayerRanking.md) — rk_* MySQL 테이블, rank_num 예약어 회피, 5개 대회 연간 포인트 집계
 - [TechStackMigration (기술 스택 전환 계획)](concepts/TechStackMigration.md) — Flask→FastAPI, Vanilla JS→Alpine.js 점진적 전환 결정 및 근거
-- [FieldOperationLessons (현장 운영 교훈)](concepts/FieldOperationLessons.md) — 4/8~10 현장 6대 반복 패턴과 해결 방향
+- [FieldOperationLessons (현장 운영 교훈)](concepts/FieldOperationLessons.md) — 4/8~10 현장 6대 반복 패턴과 해결 방향 + #10 Windows 훅 깜빡임
+- [KTTADatabaseSchema (KTTA DB 구조)](concepts/KTTADatabaseSchema.md) — ngtos_tt DB 테이블 분석
 
 ## Syntheses
 - [탁구경기결과관리시스템 업데이트 계획](syntheses/탁구경기결과관리시스템-업데이트-계획.md) — 52회 현장 사고 분석 기반, Phase 0~3 단계별 계획 및 재발 방지 체크리스트

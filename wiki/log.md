@@ -252,3 +252,10 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **작업**: FieldOperationLessons 컨셉 페이지에 교훈 #10 추가
 - **주요 내용**: PostToolUse 훅(lore-hook, rules-hook)이 Windows에서 Bash/Edit/Write마다 콘솔 창 깜빡임 유발. PostToolUse 훅 제거, UserPromptSubmit 훅만 유지로 해결.
 - **원칙**: Windows에서 빈번한 PostToolUse 훅은 피하고, 꼭 필요한 훅만 UserPromptSubmit에 배치
+
+## [2026-04-16] ingest | MindVault 훅 정리 + 단체전 점수 수정 + 서버 검증
+
+- **소스**: `sources/20260416-mindvault-hook-score-fix.md`
+- **주요 내용**: Windows PostToolUse 훅 제거(깜빡임), 여자32강 11:12→11:13 수정(kettf_tournament DB), 탁구 규칙 검증 VPS 배포, llm-wiki-agent fork(stmlscd)
+- **업데이트**: `overview.md` TeamMatch DB 주의사항, `index.md` 소스·컨셉 추가, `FieldOperationLessons.md` 교훈#10
+- **모순**: 없음
