@@ -316,3 +316,11 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
   - 대진표: `win.tournamentData` JS 직접 임베드 + jquery.gracket.js 렌더링
   - 기록지 인쇄: `printtable.php`, `printtable_direct.php`
 - **모순**: 없음
+
+## [2026-04-18] ingest | tt-result 시스템 적용 규칙 V1.0 (Priority 0)
+
+- **원본**: `docs/탁구경기결과관리시스템-규칙-V1.0.md`
+- **위키**: `concepts/TTResultRules.md`
+- **7개 규칙**: 엑셀업로드, 예선→본선, 공방률, 선발전리그, 단체전유연성, 출력규격, 기권취소선
+- **코드 검증 결과**: 4개 구현됨, 3개 미구현 (16인 리그, 5단식, 256강 인쇄)
+- CLAUDE.md에 최우선 규칙 섹션 추가

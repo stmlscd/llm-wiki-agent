@@ -166,6 +166,56 @@ win.tournamentData = [
 - [[KTTADatabaseSchema]] — ngtos_tt DB와 이 웹 시스템의 관계
 - [[TechStackMigration]] — PHP 그누보드 기반 vs FastAPI 전환
 
+## 대진표 렌더링 — 2가지 방식 병행 (핵심 발견)
+
+KTTA는 대진표 규모에 따라 **두 가지 렌더링 방식**을 사용한다:
+
+### A타입 (tournament2): gracket.js 클라이언트 렌더링
+- **적용**: 소규모 대진 (16강~64강)
+- **방식**: `win.tournamentData` JS 변수에 데이터 임베드 → gracket.js가 Canvas로 연결선 그리기
+- **장점**: 인터랙티브 (호버, 모달 클릭)
+- **단점**: 대규모(128강+) 시 Canvas 16MP 제한, 렌더링 느림
+
+### B타입 (tournament_btype): 서버 사이드 순수 CSS/HTML 렌더링
+- **적용**: 대규모 대진 (128강~256강)
+- **방식**: PHP 서버에서 전체 HTML을 직접 생성, CSS flexbox로 레이아웃
+- **핵심 구조**:
+  ```
+  #brackets (display:flex, flex-wrap:nowrap)
+  ├── .mainCtnr (width:40px)  ← 시드 번호 열
+  │   └── .subCtnr > .seed    ← 각 선수 시드
+  ├── .mainCtnr (width:150px) ← 선수명 + 대진 열
+  │   └── .subCtnr > .gteam.box ← 선수명(소속), data-game-id로 모달 연결
+  ├── ... (라운드별 반복, border로 연결선)
+  └── .mainCtnr (width:40px)  ← 반대편 시드
+  ```
+- **연결선**: Canvas 대신 **CSS border** (tr_rup/tr_rdown/tr_lup/tr_ldown 클래스)
+- **높이**: 고정값 계산 (예: 128매치 = height:2688px, 셀당 21px)
+- **스크롤**: `.wrap-parent { overflow: auto; height: 100vh; }`
+
+### B타입 CSS 연결선 패턴
+```css
+.tr_rup   { border-top: 2px solid; border-right: 2px solid; }  /* ┐ 위쪽 */
+.tr_rdown { border-right: 2px solid; border-bottom: 2px solid; } /* ┘ 아래쪽 */
+.tr_lup   { border-top: 2px solid; border-left: 2px solid; }   /* ┌ 위쪽 */
+.tr_ldown { border-left: 2px solid; border-bottom: 2px solid; }  /* └ 아래쪽 */
+.tr_middle { border-bottom: 2px solid; }                        /* ─ 중간 */
+```
+
+### 규모별 실측 데이터 (tid=171, 128매치 1라운드)
+- 전체 height: 2688px
+- 셀 height: 41.6px (고정)
+- mainCtnr: 4개 (시드|선수명|선수명|시드)
+- subCtnr: 1,334개 (선수 + 빈칸 + 연결선)
+- 파일 크기: 1.5MB
+
+### 우리 시스템에 적용 시 핵심 요구사항
+1. **256강까지 단일 뷰** — 32강 2개로 쪼개지 말 것
+2. **B타입 방식 채택** — 서버 사이드 HTML + CSS flex + border 연결선
+3. **gracket.js는 소규모(64강 이하)에만** — 대규모는 B타입 필수
+4. **높이 계산**: bracket_size × 셀높이(~42px) = 전체 높이
+5. **overflow: auto** — 대진표를 스크롤로 전체 탐색 가능하게
+
 ## Contradictions
 
 - 없음 (신규 분석)
@@ -174,6 +224,6 @@ win.tournamentData = [
 
 - 두 사이트는 동일 코드베이스에서 대회별로 분리 운영 (theme06, 동일 JS)
 - 점수 입력은 AJAX POST (pcs_getscoredata.php) 기반, 60초 폴링으로 실시간 갱신
-- gracket.js를 사용하나 우리 시스템의 gracket-lite.js와는 다른 버전
-- 대진표 데이터는 서버 사이드 렌더링으로 JS 변수에 직접 임베드
+- **대진표는 A타입(gracket.js)과 B타입(서버 사이드 CSS) 2가지 방식을 병행**
+- **B타입이 256강 지원의 핵심** — Canvas 제한 없이 순수 HTML/CSS로 렌더링
 - 로그인 시 대회코드(tcode) + 탁구대번호(table_no) 필수 — 심판별 테이블 할당 구조

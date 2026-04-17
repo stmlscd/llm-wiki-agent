@@ -48,6 +48,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [PlayerRanking (선수 랭킹 시스템)](concepts/PlayerRanking.md) — rk_* MySQL 테이블, rank_num 예약어 회피, 5개 대회 연간 포인트 집계
 - [TechStackMigration (기술 스택 전환 계획)](concepts/TechStackMigration.md) — Flask→FastAPI, Vanilla JS→Alpine.js 점진적 전환 결정 및 근거
 - [FieldOperationLessons (현장 운영 교훈)](concepts/FieldOperationLessons.md) — 4/8~10 현장 6대 반복 패턴과 해결 방향 + #10 Windows 훅 깜빡임
+- [TTResultRules (시스템 적용 규칙 V1.0)](concepts/TTResultRules.md) — **Priority 0** 7개 핵심 규칙: 공방률, 단체전, 출력 규격, 기권 취소선
 - [KTTADatabaseSchema (KTTA DB 구조)](concepts/KTTADatabaseSchema.md) — ngtos_tt DB 테이블 분석
 
 ## Syntheses
