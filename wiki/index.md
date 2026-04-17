@@ -25,6 +25,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260414 tt-result 디자인 문서 확정](sources/20260414-tt-result-design.md) — 통합 시스템 Approach C 승인, 대학연맹 4/28~5/2 첫 실전
 - [20260416 MindVault 훅 정리 + 단체전 점수 수정](sources/20260416-mindvault-hook-score-fix.md) — Windows 훅 깜빡임 해결, 11:12→11:13 수정, 탁구 규칙 검증 추가
 - [20260416 tt-result.sellma.kr 배포 및 시스템 통합](sources/20260416-tt-result-deployment.md) — VPS 배포, DB 이식, 랭킹 6대회, 개인전 모달, 기록지, 관리자 기능, 대학연맹 기권 취소선
+- [20260417 대한탁구협회 경기결과 전송 시스템 분석](sources/20260417-ktta-transmission-analysis.md) — KVPN+VPN→대회운영프로그램→result.sports.or.kr 전송 6단계, 자동화 분석
 
 ## Entities
 - [KETTF (한국초등탁구연맹)](entities/KETTF.md) — 회장기 대회 주최 기관, ITTF 규칙 채택

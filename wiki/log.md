@@ -272,3 +272,9 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **작업**: kuttf_db tournament_matches에서 테스트용 경기 결과 초기화
 - **주요 내용**: 복식_남/복식_여/혼합복식 토너먼트 점수 전체 초기화, 32강 미완료 경기의 승자가 16강에 자동 진출한 데이터도 제거. BYE 자동 진출만 유지.
 - **모순**: 없음
+
+## [2026-04-17] ingest | 대한탁구협회 경기결과 전송 시스템 영상 분석
+
+- **소스**: `sources/20260417-ktta-transmission-analysis.md`
+- **주요 내용**: 영상 3개(23.5분) 분석. KVPN→VPN(PPTP)→대회운영프로그램(tos09)→result.sports.or.kr 6단계 절차. 전송 테이블 20개(nsl*/nst*/nsd*). 대회코드 202614448. 로컬DB 직접삽입 자동화 전략.
+- **모순**: 없음
