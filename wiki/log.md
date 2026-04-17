@@ -304,3 +304,15 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **수정 완료**: 5개 전체 이슈 수정 적용 (`_new_routes.txt`, `.claude/settings.json`, 서브모듈 커밋)
 - **GitHub**: stmlscd/tt-result#1 이슈 + 코멘트 생성
 - **위키 저장**: `syntheses/20260417-codex-review-compat-router.md`
+
+## [2026-04-18] ingest | KTTA 공식 웹사이트 분석 (ktt.or.kr / koreatabletennis.com)
+
+- **분석 대상**: ktt.or.kr (종별선수권), koreatabletennis.com (종합선수권)
+- **로그인**: admin / vm0701, 심판 모드, 대회코드+테이블번호 선택
+- **핵심 발견**:
+  - 동일 코드베이스(PHP 그누보드 theme06), 대회별 분리 운영
+  - 점수 입력: `pcs_getscoredata.php` AJAX POST, wr_1~wr_14 (7세트×2선수)
+  - 실시간 갱신: `pcs_getgamedata.php` 60초 폴링, t_status(0=준비/1=경기중/2=종료)
+  - 대진표: `win.tournamentData` JS 직접 임베드 + jquery.gracket.js 렌더링
+  - 기록지 인쇄: `printtable.php`, `printtable_direct.php`
+- **모순**: 없음

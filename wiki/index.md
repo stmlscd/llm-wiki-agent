@@ -27,6 +27,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260416 tt-result.sellma.kr 배포 및 시스템 통합](sources/20260416-tt-result-deployment.md) — VPS 배포, DB 이식, 랭킹 6대회, 개인전 모달, 기록지, 관리자 기능, 대학연맹 기권 취소선
 - [20260417 대한탁구협회 경기결과 전송 시스템 분석](sources/20260417-ktta-transmission-analysis.md) — KVPN+VPN→대회운영프로그램→result.sports.or.kr 전송 6단계, 자동화 분석
 - [20260417 KTTA 경기결과 자동 전송 계획](sources/20260417-ktta-auto-transfer-plan.md) — 로컬DB 삽입 방식 4단계 계획, 매핑 구조, root/password 확인
+- [20260418 KTTA 공식 웹사이트 분석](sources/20260418-ktta-web-analysis.md) — ktt.or.kr/koreatabletennis.com PHP 구조, 점수API, 대진표 데이터
 
 ## Entities
 - [KETTF (한국초등탁구연맹)](entities/KETTF.md) — 회장기 대회 주최 기관, ITTF 규칙 채택
