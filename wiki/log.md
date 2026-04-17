@@ -296,3 +296,11 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **로컬 DB**: root / password (127.0.0.1:3307)
 - **전략 전환**: 로컬 삽입→프로그램 전송 방식에서, 원격 DB 직접 삽입 방식으로 변경 가능
 - **Phase 3**: VPN 연결 후 원격 DB 직접 삽입 테스트 (5/3 실시)
+
+## [2026-04-17] query | Codex 코드 리뷰 — 호환 라우터 보안 및 대진표 문제
+
+- **일반 리뷰**: P1 인증 누락(5개 POST), P1 64강 미지원, P2 경기 사유 미보존
+- **Adversarial 리뷰**: HIGH 서브모듈 dirty 상태, MEDIUM 플러그인 강제 활성화
+- **수정 완료**: 5개 전체 이슈 수정 적용 (`_new_routes.txt`, `.claude/settings.json`, 서브모듈 커밋)
+- **GitHub**: stmlscd/tt-result#1 이슈 + 코멘트 생성
+- **위키 저장**: `syntheses/20260417-codex-review-compat-router.md`
