@@ -284,3 +284,15 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **소스**: `sources/20260417-ktta-auto-transfer-plan.md`
 - **주요 내용**: VPN 연결 후 원격DB 포트 OPEN 확인(계정 미확인), 로컬DB root/password 확인, 로컬DB 삽입 → 프로그램 전송 방식 4단계 계획. 이전 3가지 실패 회피 전략.
 - **모순**: 없음
+
+## [2026-04-17] ingest | KTTA 원격 DB 접속 성공 + Phase 1-2 완료
+
+- **핵심 발견**: ngtos_tt.exe 프로세스 메모리에서 원격 DB 인증정보 추출
+  - 서버: 182.162.101.245:13834
+  - 계정: jinjin / jinjin2024
+  - DB: ngtos_tt (MariaDB 11.4.2)
+- **Phase 1 완료**: ktta_sync_v2.py 매핑 스크립트 작성, 11개 테이블 자동 변환
+- **Phase 2 완료**: 로컬 DB 삽입 성공 (총 3,226건)
+- **로컬 DB**: root / password (127.0.0.1:3307)
+- **전략 전환**: 로컬 삽입→프로그램 전송 방식에서, 원격 DB 직접 삽입 방식으로 변경 가능
+- **Phase 3**: VPN 연결 후 원격 DB 직접 삽입 테스트 (5/3 실시)
