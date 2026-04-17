@@ -278,3 +278,9 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **소스**: `sources/20260417-ktta-transmission-analysis.md`
 - **주요 내용**: 영상 3개(23.5분) 분석. KVPN→VPN(PPTP)→대회운영프로그램(tos09)→result.sports.or.kr 6단계 절차. 전송 테이블 20개(nsl*/nst*/nsd*). 대회코드 202614448. 로컬DB 직접삽입 자동화 전략.
 - **모순**: 없음
+
+## [2026-04-17] ingest | KTTA 자동 전송 계획 + VPN 접속 테스트 결과
+
+- **소스**: `sources/20260417-ktta-auto-transfer-plan.md`
+- **주요 내용**: VPN 연결 후 원격DB 포트 OPEN 확인(계정 미확인), 로컬DB root/password 확인, 로컬DB 삽입 → 프로그램 전송 방식 4단계 계획. 이전 3가지 실패 회피 전략.
+- **모순**: 없음
