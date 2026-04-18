@@ -28,6 +28,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260417 대한탁구협회 경기결과 전송 시스템 분석](sources/20260417-ktta-transmission-analysis.md) — KVPN+VPN→대회운영프로그램→result.sports.or.kr 전송 6단계, 자동화 분석
 - [20260417 KTTA 경기결과 자동 전송 계획](sources/20260417-ktta-auto-transfer-plan.md) — 로컬DB 삽입 방식 4단계 계획, 매핑 구조, root/password 확인
 - [20260418 KTTA 공식 웹사이트 분석](sources/20260418-ktta-web-analysis.md) — ktt.or.kr/koreatabletennis.com PHP 구조, 점수API, 대진표 데이터
+- [20260418 대진표 어그러짐 수정 및 64강 한 장 출력](sources/20260418-bracket-alignment-fix.md) — gracket-lite 높이 통일, 빈 매치 플레이스홀더, 64강 단일 페이지
 
 ## Entities
 - [KETTF (한국초등탁구연맹)](entities/KETTF.md) — 회장기 대회 주최 기관, ITTF 규칙 채택
