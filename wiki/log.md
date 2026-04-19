@@ -335,3 +335,14 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **해결**: compat_52nd.py에서 빈 매치 플레이스홀더 자동 생성
 - **DB 수정**: 대회명에서 "및 2026 한.일 대학탁구대회 선발전" 삭제
 - VPS 직접 배포 완료
+
+## [2026-04-19] fix | QA 검증 — 보안/인증 수정 (Health 52→72)
+
+- **QA 대상**: https://tt-result.sellma.kr (Full, curl+WebFetch)
+- **발견**: 7개 이슈 (CRITICAL 1, HIGH 3, MEDIUM 2, LOW 1)
+- **수정 완료**:
+  - ISSUE-001 CRITICAL: 8개 POST API에 `require_login` 인증 추가
+  - ISSUE-002 HIGH: admin 비밀번호 해시 재생성 (vm0701)
+- **오탐 확인**: ISSUE-003(세션 필요), ISSUE-005(URL 오류)
+- **다음 검증으로 이관**: ISSUE-004(랭킹 404), ISSUE-006(인쇄 일부), ISSUE-007(메인 UX)
+- VPS + m4sellma 동기화 완료
