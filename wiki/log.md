@@ -346,3 +346,10 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **오탐 확인**: ISSUE-003(세션 필요), ISSUE-005(URL 오류)
 - **다음 검증으로 이관**: ISSUE-004(랭킹 404), ISSUE-006(인쇄 일부), ISSUE-007(메인 UX)
 - VPS + m4sellma 동기화 완료
+
+## [2026-04-19] ingest | 초등연맹 랭킹 선수 수정 2건
+
+- **작업**: kettf_tournament.rk_players/rk_scores 수정
+- **수정 1**: 이효은(여자5학년, id=141) 소속 삼정 → 화성도시공사
+- **수정 2**: 김한서(여자6학년, id=225) 교보 15점 추가, 총점 70→85점
+- **모순**: 없음
