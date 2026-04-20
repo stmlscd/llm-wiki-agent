@@ -57,3 +57,4 @@ This file is maintained by the LLM. Updated on every ingest.
 ## Syntheses
 - [탁구경기결과관리시스템 업데이트 계획](syntheses/탁구경기결과관리시스템-업데이트-계획.md) — 52회 현장 사고 분석 기반, Phase 0~3 단계별 계획 및 재발 방지 체크리스트
 - [Codex 코드 리뷰 — 호환 라우터](syntheses/20260417-codex-review-compat-router.md) — 인증 누락(P1), 64강 미지원(P1), 사유 미보존(P2)
+- [src/ 구조 마이그레이션](syntheses/20260420-src-migration.md) — university-league/app/ → src/ 전면 이전, compat_52nd.py 5개 라우터 분리

@@ -107,6 +107,7 @@ tt-result 배포: Apache VirtualHost → 127.0.0.1:8100, Let's Encrypt SSL, syst
 - **운영 서버**: VPS tt-result.sellma.kr (Apache→uvicorn:8100, MySQL kuttf_db)
 - **완료된 작업**: 초등연맹 전체 이식, 대학연맹 데이터 이식(단체전+테스트결과 제외), 랭킹 6개 대회, 개인전 모달, 기록지, 관리자 기능, 기권 취소선
 - **2026-04-17**: 대학연맹 토너먼트 테스트 결과 삭제 (복식 남/여/혼합), 상위 라운드 자동진출 데이터 정리
+- **2026-04-20 src/ 마이그레이션 완료**: university-league/app/ → src/ 구조 이전. compat_52nd.py(1074행)를 league/bracket/team/awards/admin 5개 라우터로 분리. 44개 Python 파일, 59개 엔드포인트. m4sellma 실행 테스트 전 API 200 OK. VPS는 대회 끝까지 기존 코드 유지, m4sellma:8100이 폴백.
 - **남은 작업**: 실전 운영 테스트, 대학연맹 단체전 등록/대진, 52nd→tt-result 완전 전환
 - **Phase 2** (대회 후): 랭킹 통합, 시상, 코치 로그인, 선수 CRUD
 - **Phase 3**: 중고/실업 연맹 확장, KTTA 연동

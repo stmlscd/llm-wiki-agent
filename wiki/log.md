@@ -384,3 +384,8 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **tt-review**: 인증 누락 3건 CRITICAL 수정 (forfeit/move-player/singles-forfeit)
 - **tt-plan**: 대학연맹 현장 대응 4태스크 계획, 체크리스트 작성
 - **환경 점검**: tt-doctor 10/10 PASS
+
+## [2026-04-20] ingest | src/ 구조 마이그레이션 완료
+- university-league/app/ → src/ 전면 이전
+- compat_52nd.py(1074행) → 5개 라우터 분리
+- 44 Python, 59 endpoints, m4sellma 테스트 OK
