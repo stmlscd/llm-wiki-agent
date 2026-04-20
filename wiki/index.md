@@ -30,6 +30,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260418 KTTA 공식 웹사이트 분석](sources/20260418-ktta-web-analysis.md) — ktt.or.kr/koreatabletennis.com PHP 구조, 점수API, 대진표 데이터
 - [20260418 대진표 어그러짐 수정 및 64강 한 장 출력](sources/20260418-bracket-alignment-fix.md) — gracket-lite 높이 통일, 빈 매치 플레이스홀더, 64강 단일 페이지
 - [20260419 QA 검증 및 보안/인증 수정](sources/20260419-qa-report-fixes.md) — CRITICAL 인증 누락 수정, 로그인 비밀번호 재설정, Health 52→72
+- [20260420 tt-harness-kit 배포 + VPS 코드 매핑 불일치](sources/20260420-tt-harness-kit-deployment.md) — ohmyclaw(MIT)에서 6 커맨드 이식, 4대 배포, VPS kettf ↔ github 독립 진화 발견 → 자동 롤백, 대회 후 P1-1 정리 대기
 
 ## Entities
 - [KETTF (한국초등탁구연맹)](entities/KETTF.md) — 회장기 대회 주최 기관, ITTF 규칙 채택
