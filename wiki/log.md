@@ -361,3 +361,12 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **tt-review**: 인증 누락 3건(forfeit/move-player/singles-forfeit) CRITICAL 수정, VPS 적용
 - **규칙 V1.1**: 6~9인 매치 오더(7인=21경기~9인=36경기) + 기록지 출력 셀 규격
 - **현장 체크리스트**: VPS 긴급수정, DB 백업, 대체 서버, 종목별 운영 순서
+
+## [2026-04-20] ingest | 3~20인 매치 오더 엑셀 검증 + 규칙 V1.1
+
+- **매치 오더**: 초등연맹 오더지 엑셀 18개(3~20인) 비교 분석, 5~9인 완전 일치, 10~20인 추가
+- **match_orders.py**: 별도 분리 (300행 제한), 전수 검증 OK
+- **규칙 V1.1**: 기권=취소선 필수, 6~9인 매치 오더, 기록지 셀 규격 추가
+- **tt-review**: 인증 누락 3건 CRITICAL 수정 (forfeit/move-player/singles-forfeit)
+- **tt-plan**: 대학연맹 현장 대응 4태스크 계획, 체크리스트 작성
+- **환경 점검**: tt-doctor 10/10 PASS
