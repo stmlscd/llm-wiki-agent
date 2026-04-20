@@ -353,3 +353,11 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **수정 1**: 이효은(여자5학년, id=141) 소속 삼정 → 화성도시공사
 - **수정 2**: 김한서(여자6학년, id=225) 교보 15점 추가, 총점 70→85점
 - **모순**: 없음
+
+## [2026-04-20] ingest | tt-harness-kit + 대학연맹 현장 대응 + 규칙 V1.1
+
+- **tt-harness-kit**: 5개 슬래시 명령(tt-plan/work/review/ralph/consensus) + tt-doctor.sh 설치
+- **tt-plan**: 대학연맹 대회 현장 대응 4태스크 계획 수립
+- **tt-review**: 인증 누락 3건(forfeit/move-player/singles-forfeit) CRITICAL 수정, VPS 적용
+- **규칙 V1.1**: 6~9인 매치 오더(7인=21경기~9인=36경기) + 기록지 출력 셀 규격
+- **현장 체크리스트**: VPS 긴급수정, DB 백업, 대체 서버, 종목별 운영 순서
