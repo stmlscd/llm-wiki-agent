@@ -361,3 +361,17 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - **tt-review**: 인증 누락 3건(forfeit/move-player/singles-forfeit) CRITICAL 수정, VPS 적용
 - **규칙 V1.1**: 6~9인 매치 오더(7인=21경기~9인=36경기) + 기록지 출력 셀 규격
 - **현장 체크리스트**: VPS 긴급수정, DB 백업, 대체 서버, 종목별 운영 순서
+
+## [2026-04-20] ingest | tt-harness-kit 배포 + VPS 코드 매핑 불일치 발견 (M1 Max 세션)
+
+- **소스**: `raw/20260420_tt_harness_kit_session.md`
+- **생성된 페이지**: `sources/20260420-tt-harness-kit-deployment.md`
+- **작업자**: 상철 + Claude (M1 Max)
+- **이식 대상**: ohmyclaw (MIT) → tt-harness-kit (6 커맨드 + 2 스크립트)
+- **배포 범위**: 윈컴(SMB) + M1 Max(/tmp/ttr-clone) + m4sellma(rsync) + VPS(/var/www/tt-result/)
+- **발견**: VPS `/var/www/kettf/2026/52nd/` ↔ github `52nd_president_cup/web/` **코드베이스 독립 진화**
+  - wsgi.py 변수명 불일치 (`app` vs `application`), app.py 완전히 다른 기능
+  - 실 배포 시 gunicorn `App failed to load` → 자동 롤백 성공 (다운타임 5초)
+  - 대회 후 P1-1 매핑 재정립 필요 (`docs/post-tournament-tasks.md`)
+- **보안 이슈**: MySQL 자격증명 + VPS root 비번이 저장소 평문 (P0, 대회 후 즉시 교체)
+- **신규 원칙**: commit → github push → m4sellma rsync 를 한 흐름으로 (feedback memory 저장)
