@@ -31,6 +31,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260418 대진표 어그러짐 수정 및 64강 한 장 출력](sources/20260418-bracket-alignment-fix.md) — gracket-lite 높이 통일, 빈 매치 플레이스홀더, 64강 단일 페이지
 - [20260419 QA 검증 및 보안/인증 수정](sources/20260419-qa-report-fixes.md) — CRITICAL 인증 누락 수정, 로그인 비밀번호 재설정, Health 52→72
 - [20260420 tt-harness-kit 배포 + VPS 코드 매핑 불일치](sources/20260420-tt-harness-kit-deployment.md) — ohmyclaw(MIT)에서 6 커맨드 이식, 4대 배포, VPS kettf ↔ github 독립 진화 발견 → 자동 롤백, 대회 후 P1-1 정리 대기
+- [20260422 구글 캘린더 등록 및 KTTA 전문 대회 일정 분석](sources/20260422-calendar-ktta-schedule.md) — KTTA 2026 전문 대회 확정 21건 ICS→구글 캘린더 등록, 병원 진료 4건 등록
+- [20260422 Claude Code 외부 스킬 평가](sources/20260422-skill-evaluation.md) — peon-ping/ok-skills/caveman/color-expert 4개 평가, 현재 불필요
+- [20260422 MindVault 훅 수정 + Windows 터미널 선택](sources/20260422-terminal-mindvault-fix.md) — CREATE_NO_WINDOW 깜빡임 해결, Alacritty 포터블 설치
+- [20260422 BlueKiwi MCP 서버 설치 및 연결](sources/20260422-bluekiwi-mcp-setup.md) — 워크플로우 런타임, 프로필 tt-result, 8개 런타임 MCP 연동
+- [20260423 BlueKiwi WF:4 Step 6 FE 배선 완성](sources/20260423-fe-wiring-completion.md) — R1-01/R2-01/R3-01 FE 배선 완성, pytest 43/43, 프로세스 리뷰
+- [20260423 m4sellma 핫 스탠바이 전환 (VPS 독립 복제)](sources/20260423-m4sellma-hot-standby.md) — 로컬 MySQL 9.6 + 4 DB 복제 + screen 기반 uvicorn 기동
+- [20260423 서버 규칙 + 도입 전 분석 정책 제정](sources/20260423-server-rules-and-adoption-policy.md) — 운영=VPS/백업=m4sellma 규칙 + Skill/MCP/Workflow 도입 6항목 분석 정책
 
 ## Entities
 - [KETTF (한국초등탁구연맹)](entities/KETTF.md) — 회장기 대회 주최 기관, ITTF 규칙 채택
@@ -53,6 +60,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [FieldOperationLessons (현장 운영 교훈)](concepts/FieldOperationLessons.md) — 4/8~10 현장 6대 반복 패턴과 해결 방향 + #10 Windows 훅 깜빡임
 - [TTResultRules (시스템 적용 규칙 V1.0)](concepts/TTResultRules.md) — **Priority 0** 7개 핵심 규칙: 공방률, 단체전, 출력 규격, 기권 취소선
 - [KTTADatabaseSchema (KTTA DB 구조)](concepts/KTTADatabaseSchema.md) — ngtos_tt DB 테이블 분석
+- [ServerRules (서버 규칙 V1)](concepts/ServerRules.md) — 2026-04-23 제정. 운영=VPS, 백업·테스트=m4sellma, 상시 동일 데이터
+- [AdoptionPolicy (도입 전 분석 정책)](concepts/AdoptionPolicy.md) — 2026-04-23 제정. Skill/MCP/Workflow 도입 전 6항목 분석→사용자 허가
 
 ## Syntheses
 - [탁구경기결과관리시스템 업데이트 계획](syntheses/탁구경기결과관리시스템-업데이트-계획.md) — 52회 현장 사고 분석 기반, Phase 0~3 단계별 계획 및 재발 방지 체크리스트

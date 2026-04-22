@@ -4,6 +4,38 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-04-23] ingest | 서버 규칙 + 도입 전 분석 정책 제정
+
+- **소스**: `raw/20260423_server_rules_and_adoption_policy.md`
+- **생성된 페이지**: `sources/20260423-server-rules-and-adoption-policy.md`, `concepts/ServerRules.md`, `concepts/AdoptionPolicy.md`
+- **핵심 사항**:
+  - 서버 규칙: 운영=VPS, 백업/테스트=m4sellma, 상시 동일 데이터
+  - 도입 전 분석 정책: Skill/MCP/Workflow 도입 전 6항목 분석 → 사용자 허가
+  - 3곳 동기 저장: docs/ + CLAUDE.md §16·§17 + memory feedback
+- **모순**: 없음
+
+## [2026-04-23] ingest | m4sellma 핫 스탠바이 전환 (VPS 독립 복제)
+
+- **소스**: `raw/20260423_m4sellma_hot_standby.md`
+- **생성된 페이지**: `sources/20260423-m4sellma-hot-standby.md`
+- **핵심 사항**:
+  - m4sellma 에 로컬 MySQL 9.6 설치 + 4 DB 전체 복제
+  - APP_SSH_TUNNEL=false 전환, 로컬 MySQL 사용
+  - LaunchAgent 는 TCC(Full Disk Access) 이슈 → screen detached session 우회
+  - 외부 공개 포트는 80·443·8843 만, 8100·8102 는 LAN 전용
+- **모순**: 기존 `DeploymentArchitecture` 의 m4sellma 기술 갱신 필요 (다음 업데이트에서 반영)
+
+## [2026-04-23] ingest | BlueKiwi WF:4 Step 6 FE 배선 완성 + 프로세스 리뷰
+
+- **소스**: `raw/20260423_wf4_fe_wiring_completion.md`
+- **생성된 페이지**: `sources/20260423-fe-wiring-completion.md`
+- **핵심 사항**:
+  - R1-01/R2-01/R3-01 FE 배선 완성 (gracket data-team, /my 페이지, autocomplete)
+  - pytest 43/43 통과
+  - WF:4 프로세스 리뷰: 인프라 85점 / 프로세스 60점 / 기능 완성 50→85점
+- **모순**: 없음
+
+
 Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 
 ---
@@ -389,3 +421,41 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - university-league/app/ → src/ 전면 이전
 - compat_52nd.py(1074행) → 5개 라우터 분리
 - 44 Python, 59 endpoints, m4sellma 테스트 OK
+
+## [2026-04-22] ingest | 초등연맹 랭킹 DB 수정
+- 소속변경: 김하늘(140), 김지온(147) → 경기/화성도시공사
+- 점수이동: 김지훈 4학년(304) 삭제 → 5학년(40) 종별+10 (total 70)
+- 점수추가: 배선우(350) 종별+10 (total 25)
+- 적용: kettf_tournament (VPS), m4sellma는 터널로 동일 DB
+
+## [2026-04-22] ingest | 구글 캘린더 등록 및 KTTA 전문 대회 일정 분석
+
+- **소스**: `raw/20260422_calendar_ktta_schedule.md`
+- **생성된 페이지**: `sources/20260422-calendar-ktta-schedule.md`
+- KTTA 2026 대회일정 PDF 분석 → 전문 대회 확정 21건 ICS 생성 → 구글 캘린더 등록
+- 병원 진료 4건 (6/2, 7/21, 7/23, 9/3) ICS 등록
+- talk/2026_04_22_talk.md 대화 기록 저장
+- 기억 DB: reference_ktta_2026_schedule.md 추가
+
+## [2026-04-22] ingest | Claude Code 외부 스킬 평가
+
+- **소스**: `raw/20260422_skill_evaluation.md`
+- **생성된 페이지**: `sources/20260422-skill-evaluation.md`
+- peon-ping, ok-skills, caveman, skill.color-expert 4개 평가
+- 결론: 현재 불필요, color-expert만 UX 단계에서 재검토
+
+## [2026-04-22] ingest | MindVault 훅 수정 + Windows 터미널 선택
+
+- **소스**: `raw/20260422_terminal_mindvault_fix.md`
+- **생성된 페이지**: `sources/20260422-terminal-mindvault-fix.md`
+- MindVault 훅 CREATE_NO_WINDOW 깜빡임 해결
+- Alacritty 포터블 설치 (Windows용 iTerm2+tmux 대안)
+- MCP 서버 미설정 확인
+
+## [2026-04-22] ingest | BlueKiwi MCP 서버 설치 및 연결
+
+- **소스**: `raw/20260422_bluekiwi_mcp_setup.md`
+- **생성된 페이지**: `sources/20260422-bluekiwi-mcp-setup.md`
+- BlueKiwi v1.2.3 설치, 프로필 tt-result
+- Claude Code + Claude Desktop MCP 연결 완료
+- 8개 런타임 연동

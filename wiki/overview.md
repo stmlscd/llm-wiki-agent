@@ -73,7 +73,7 @@ tt-result 배포: Apache VirtualHost → 127.0.0.1:8100, Let's Encrypt SSL, syst
 
 ---
 
-**[[PlayerRanking]]**: MySQL `rk_*` 테이블(선수 380명, 대회 6개)에 연간 포인트 집계. MySQL 예약어 충돌로 순위 컬럼은 `rank_num` 사용. `web/`(SQLite) vs `dist/`+VPS(MySQL) 이중 환경 유지. 2026-04-10 마이그레이션 완료. **2026-04-12 회장기 포인트 반영 완료**: 4·5·6학년 291명에게 R1 등급 포인트 산출, 신규 39명 등록, rk_rankings 재계산. 엑셀 보고서(남자/여자) 생성. **2026-04-13 시도 수정 및 최종 마무리**: province 45건 수정(빈값/기타→정확한 시도), 랭킹 메뉴 버튼 삭제, VPS 최종완성 백업(7.1MB+322KB).
+**[[PlayerRanking]]**: MySQL `rk_*` 테이블(선수 380명, 대회 6개)에 연간 포인트 집계. MySQL 예약어 충돌로 순위 컬럼은 `rank_num` 사용. `web/`(SQLite) vs `dist/`+VPS(MySQL) 이중 환경 유지. 2026-04-10 마이그레이션 완료. **2026-04-12 회장기 포인트 반영 완료**: 4·5·6학년 291명에게 R1 등급 포인트 산출, 신규 39명 등록, rk_rankings 재계산. 엑셀 보고서(남자/여자) 생성. **2026-04-13 시도 수정 및 최종 마무리**: province 45건 수정(빈값/기타→정확한 시도), 랭킹 메뉴 버튼 삭제, VPS 최종완성 백업(7.1MB+322KB). **2026-04-22 랭킹 데이터 수정**: 김하늘·김지온 소속 화성도시공사로 변경, 김지훈 4학년(id=304) 삭제→5학년(id=40)에 종별 10점 이동(total 70점), 배선우(id=350) 종별 10점 추가(total 25점). kettf_tournament DB 직접 적용, m4sellma는 SSH 터널로 동일 DB 사용.
 
 ---
 
@@ -120,3 +120,30 @@ tt-result 배포: Apache VirtualHost → 127.0.0.1:8100, Let's Encrypt SSL, syst
 - 랭킹 UI 보강 (학년별·성별 순위표 프론트엔드)
 - 코치/팀 로그인 포털
 - 선수 관리 CRUD UI (SSH 없이 관리자 페이지에서 추가/수정)
+
+---
+
+## 2026-04-23 업데이트 (D-5, BlueKiwi WF:4 + 핫 스탠바이 + 규칙 제정)
+
+### 1. BlueKiwi WF:4 Task#1 Step 6 FE 배선 완성
+- R1-01 선수 검색 autocomplete, R2-01 /my 모바일 위젯, R3-01 본선 대진표 팀 하이라이트 — 모두 실제 화면에서 호출 가능하게 연결
+- gracket-lite.js 에 data-team 자동 노출, university-main.js 에 5개 FE 헬퍼 (withdraw/restore/highlight/autocomplete) 장착
+- pytest 43/43 (BE+FE+config+인프라)
+
+### 2. m4sellma 핫 스탠바이 전환 (VPS 독립 복제)
+- m4sellma 에 MySQL 9.6 로컬 설치 + VPS 4 DB(tt_result·kuttf_db·kettf_db·ktta_db) 전체 복제
+- APP_SSH_TUNNEL=false 로 전환하여 로컬 MySQL 사용 — VPS 장애 시 독립 운영 가능
+- uvicorn 은 LaunchAgent TCC 이슈로 screen -dmS detached session 방식 채택 (재부팅 시 수동 재시작 필요)
+- 외부 공개는 80·443·8843 만 (라우터 NAT), 8100·8102 는 LAN 전용
+
+### 3. 프로젝트 규칙 2건 제정
+- **서버 규칙** (docs/server-rules.md, CLAUDE.md §16): 운영=VPS, 백업·테스트=m4sellma, 상시 동일 데이터 + 매일 02:00 자동 sync, 대회 중 수동
+- **도입 전 분석 정책** (docs/adoption-policy.md, CLAUDE.md §17): Skill/MCP/Workflow 도입 전 Claude 가 6항목 분석 → 사용자 허가
+- 두 규칙 모두 docs/·CLAUDE/·memory 3곳 동기 저장
+
+### 4. 대회 준비 상태 (D-5, 2026-04-28 개막)
+- 운영 VPS 정상 (http://www.sellma.kr/)
+- 백업·테스트 m4sellma 독립 가동 중 (8100 운영 미러 + 8101 HTTPS + 8102 신기능)
+- 실데이터 smoke: 선수 검색 실제 227명 반환, 내 경기·기권 API 모두 200
+- 다음 단계: D-2 VPS 에 alembic upgrade 정식 적용 → 운영 DB 스키마를 m4sellma 와 정합
+
