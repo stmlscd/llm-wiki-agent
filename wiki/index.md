@@ -39,6 +39,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260423 m4sellma 핫 스탠바이 전환 (VPS 독립 복제)](sources/20260423-m4sellma-hot-standby.md) — 로컬 MySQL 9.6 + 4 DB 복제 + screen 기반 uvicorn 기동
 - [20260423 서버 규칙 + 도입 전 분석 정책 제정](sources/20260423-server-rules-and-adoption-policy.md) — 운영=VPS/백업=m4sellma 규칙 + Skill/MCP/Workflow 도입 6항목 분석 정책
 - [20260423 m4sellma 보안 점검 대응 + UniFi 포워딩 실측](sources/20260423-security-audit-response.md) — P0 3건 즉시 조치, UniFi 포워딩 실측으로 P0-1~4 재평가, dead rules 삭제
+- [20260423 HyperFrames tt-result 15초 홍보 영상 제작](sources/20260423-hyperframes-promo-video.md) — 1920×1080 GSAP 컴포지션, 테이블·공 8회 랠리·피처 카드·TT-Result 타이틀 리빌, lint/validate 통과, FFmpeg 설치 대기
 
 ## Entities
 - [KETTF (한국초등탁구연맹)](entities/KETTF.md) — 회장기 대회 주최 기관, ITTF 규칙 채택
