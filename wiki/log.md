@@ -4,6 +4,20 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-04-23] ingest | m4sellma 보안 점검 대응 + UniFi 포워딩 실측
+
+- **소스**: `raw/20260423_security_audit_response.md`
+- **생성된 페이지**: `sources/20260423-security-audit-response.md`
+- **업데이트된 페이지**: `docs/server-rules.md §6-a` (메인 repo), `docs/post-tournament-tasks.md` P0-8/P0-9 신규
+- **핵심 사항**:
+  - P0-1 MySQL 127.0.0.1 bind-address (my.cnf 신규)
+  - P0-2 Ollama LaunchAgent (`com.sellma.ollama.plist`) + OLLAMA_HOST=127.0.0.1
+  - P0-6 FastAPI docs APP_ENV=production 분기로 404
+  - UniFi 포트포워딩 실측: m4sellma 공개 포트는 80/822/8843 만
+  - WAN:2222 / WAN:8888 dead rules 사용자 GUI 삭제 완료
+  - 8843 SSL EOF 는 기존 이슈, Let's Encrypt 로 대회 후 해결
+- **모순**: 보안 점검 보고서 P0-1~P0-4 Critical 판정 vs 실측 (라우터 차단) — 정찰 범위 차이로 설명
+
 ## [2026-04-23] ingest | 서버 규칙 + 도입 전 분석 정책 제정
 
 - **소스**: `raw/20260423_server_rules_and_adoption_policy.md`
