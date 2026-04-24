@@ -2,6 +2,14 @@
 
 Append-only chronological record of all operations.
 
+## [2026-04-24] ingest | 운영 워크플로우 §7 제정
+
+- **소스**: `raw/20260424_operational_workflow.md`
+- **생성된 페이지**: `sources/20260424-operational-workflow.md`
+- **업데이트**: docs/server-rules.md §7, CLAUDE.md §16, memory feedback_server_rules.md
+- **핵심**: VPS=정상화된 소스 운영, m4sellma=상시 백업+테스트, 문제는 m4sellma 재현→수정→VPS 이식 8단계 절차
+- **모순**: 없음 (§1 서버 규칙을 절차로 확장)
+
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
 ## [2026-04-24] ingest | TT-Result 브랜드 실배포 (VPS + m4sellma)
