@@ -4,6 +4,21 @@ Append-only chronological record of all operations.
 
 Format: `## [YYYY-MM-DD] <operation> | <title>`
 
+## [2026-04-24] ingest | TT-Result 브랜드 실배포 (VPS + m4sellma)
+
+- **소스**: `raw/20260424_brand_rollout.md`
+- **생성된 페이지**: `sources/20260424-brand-rollout.md`
+- **변경된 파일**: `src/templates/index.html`, `src/static/css/main.css`, `university-league/app/templates/index.html`, `university-league/static/css/main.css`
+- **핵심 사항**:
+  - 어제 문서화한 브랜드 스펙 → 실 배포
+  - 헤더(topbar + TT-Result 로고 + 탁구 네트 + TOURNAMENTS·PLAYERS·RESULTS·RANKINGS 네비) 추가
+  - CSS 변수 prelude(다크 네이비 + 오렌지) 최상단 주입, 카드·모달·버튼 오버라이드
+  - m4sellma(8100/8101/8102) + VPS(tt-result.sellma.kr) 양쪽 배포
+  - 백업 `*.bak-20260424_140901` 생성 후 업로드 → 롤백 가능
+  - 기존 alpine.js 로직 + 메뉴 클릭 동작 + 규칙 V1.1 준수 유지
+- **검증**: HTTP 200, body 에 `brand-logo` + `class="tt"` 포함 확인, pytest 43/43
+- **모순**: 없음
+
 ## [2026-04-23] ingest | m4sellma 보안 점검 대응 + UniFi 포워딩 실측
 
 - **소스**: `raw/20260423_security_audit_response.md`
