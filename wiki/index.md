@@ -43,6 +43,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260424 TT-Result 브랜드 실배포 (VPS + m4sellma)](sources/20260424-brand-rollout.md) — 히어로 프레임 기반 헤더·다크 테마 CSS, 양쪽 서버 배포 완료
 - [20260424 운영 워크플로우 §7 제정](sources/20260424-operational-workflow.md) — VPS=정상소스, m4sellma=백업+테스트, 문제 m4sellma→VPS 이식 8단계
 - [20260424 mafia-codereview-harness plugin 도입 전 분석 → 대회 후 재검토](sources/20260424-mafia-codereview-deferred.md) — §17 정책의 첫 실전 적용 사례, 6항목 분석 → 대회 후 재검토 보류
+- [20260424 mafia-codereview-harness 실물 CLAUDE.md 확인 후 §17 재평가](sources/20260424-mafia-codereview-reassessment.md) — 실물 확인 후 안정성 리스크 하향·유지비용 상향, 보류 사유 재정의
 
 
 ## Entities

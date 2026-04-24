@@ -2,6 +2,14 @@
 
 Append-only chronological record of all operations.
 
+## [2026-04-24] ingest | mafia-codereview-harness 실물 CLAUDE.md 확인 후 §17 재평가
+
+- **소스**: `raw/20260424_mafia_codereview_reassessment.md`
+- **생성된 페이지**: `sources/20260424-mafia-codereview-reassessment.md`
+- **업데이트**: memory/reference_mafia_codereview_harness.md (6항목 재평가표 + 실물 핵심 + 재검토 선행 작업 순서)
+- **핵심**: 실물 CLAUDE.md 확인 → 안정성 리스크 중→낮음, 유지비용 중→중상. 결정 유지(대회 후 재검토) but 사유 재정의: "2 commit repo" → "yaml 선행 작성이 대회 시간 잠식"
+- **모순**: 없음. 어제 결정의 근거만 정교화
+
 ## [2026-04-24] ingest | mafia-codereview-harness plugin 도입 전 분석 → 대회 후 재검토
 
 - **소스**: `raw/20260424_mafia_codereview_deferred.md`
