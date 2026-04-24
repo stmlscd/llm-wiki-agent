@@ -2,6 +2,14 @@
 
 Append-only chronological record of all operations.
 
+## [2026-04-24] ingest | mafia-codereview-harness plugin 도입 전 분석 → 대회 후 재검토
+
+- **소스**: `raw/20260424_mafia_codereview_deferred.md`
+- **생성된 페이지**: `sources/20260424-mafia-codereview-deferred.md`
+- **업데이트**: memory/reference_mafia_codereview_harness.md, docs/post-tournament-tasks.md P2-1
+- **핵심**: §17 도입 전 분석 정책의 첫 실전 적용 — 6항목 분석 → 대회 D-4 리스크 고려 → 대회 종료(2026-05-02) 후 재검토 결정
+- **모순**: 영상의 "AI 자율주행" 표현 vs 실제 (PR 리뷰 harness) — 마케팅/현실 차이로 해소
+
 ## [2026-04-24] ingest | 운영 워크플로우 §7 제정
 
 - **소스**: `raw/20260424_operational_workflow.md`
