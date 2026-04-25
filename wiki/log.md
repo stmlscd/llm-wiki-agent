@@ -2,6 +2,20 @@
 
 Append-only chronological record of all operations.
 
+## [2026-04-25] ingest | M1 Max Cowork 프레임워크 도입 판단 + m4sellma git baseline 확립
+
+- **소스**: `raw/20260425_m1max_cowork_and_m4sellma_sync.md`
+- **생성된 페이지**: `sources/20260425-m1max-cowork-and-m4sellma-sync.md`
+- **변경된 파일**: `docs/framework-adoption-judgment-2026-04-24.md` (본편 189줄), `docs/framework-adoption-judgment-2026-04-25-addendum.md` (부록 179줄)
+- **m4sellma 변경**: `~/tt-result/` 신규 git clone (HEAD=4aef1d8), git bundle 방식 (GitHub auth 없이 Windows→m4sellma)
+- **핵심**:
+  - Superpowers/GSD/GSTACK 전면 보류, 대회 후 Phase C 재검토
+  - Playwright 실브라우저 QA + Claude Code 훅 규율 5종 = Phase C 신규 채택
+  - 업로드 yaml 2개는 TS 스택용이라 폐기, Python/FastAPI 버전 신규 작성 필요
+  - 본편 §2-3 mafia-codereview 평가 = 어제 Windows PC 분석과 완전 일치 (§17 일관성)
+  - m4sellma SSH key/PAT 미설정 → git bundle 로 무인증 동기화 (D-3 인증 셋업 회피)
+- **모순**: 없음
+
 ## [2026-04-24] ingest | mafia-codereview-harness 실물 CLAUDE.md 확인 후 §17 재평가
 
 - **소스**: `raw/20260424_mafia_codereview_reassessment.md`
