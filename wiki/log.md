@@ -2,6 +2,22 @@
 
 Append-only chronological record of all operations.
 
+## [2026-04-26] graph | Knowledge graph rebuilt
+
+68 nodes, 247 edges (247 extracted, 0 inferred).
+
+## [2026-04-26] ingest | MacBook Air GitHub 브리핑 + 나노클로드 현장 인계
+
+- **소스**: `talk/2026_04_26_talk.md`
+- **생성된 페이지**: `sources/20260426-macbookair-github-briefing.md`
+- **핵심**:
+  - MacBook Air(몽실) = D-0~D+4 현장 실행자 확정
+  - GitHub CLI `stmlscd` 재인증, tt-result 로컬 클론 완료
+  - llm-wiki-agent 서브모듈 `.gitmodules` 누락 → 직접 clone 복구
+  - D-2 Alembic 마이그레이션 등 릴리스 항목 → 사용자 판단으로 연기
+  - 업무 시작 트리거: 내일 단체전 대진표 추첨 종료 후 대진표 작성
+- **모순**: 없음
+
 ## [2026-04-26] ingest | 나노클로드 비서실장 도입 + 운영 위계 재편
 
 - **소스**: `raw/20260426_nanoclaw_chief_of_staff.md`

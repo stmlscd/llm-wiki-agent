@@ -1,0 +1,2280 @@
+{
+  "nodes": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "type": "synthesis",
+      "color": "#8BC34A",
+      "path": "wiki/overview.md",
+      "group": 2
+    },
+    {
+      "id": "concepts/ScoreSheet",
+      "label": "ScoreSheet (KTT \ud45c\uc900 \uae30\ub85d\uc9c0)",
+      "type": "concept",
+      "color": "#8BC34A",
+      "path": "wiki/concepts/ScoreSheet.md",
+      "group": 2
+    },
+    {
+      "id": "concepts/FieldOperationLessons",
+      "label": "FieldOperationLessons (\ud604\uc7a5 \uc6b4\uc601 \uad50\ud6c8)",
+      "type": "concept",
+      "color": "#E91E63",
+      "path": "wiki/concepts/FieldOperationLessons.md",
+      "group": 0
+    },
+    {
+      "id": "concepts/TTResultRules",
+      "label": "TTResultRules (tt-result \uc2dc\uc2a4\ud15c \uc801\uc6a9 \uaddc\uce59 V1.0)",
+      "type": "concept",
+      "color": "#E91E63",
+      "path": "wiki/concepts/TTResultRules.md",
+      "group": 0
+    },
+    {
+      "id": "concepts/TieBreakRanking",
+      "label": "TieBreakRanking (\uacf5\ubc29\uc728 \ub3d9\ub960 \ucc98\ub9ac)",
+      "type": "concept",
+      "color": "#8BC34A",
+      "path": "wiki/concepts/TieBreakRanking.md",
+      "group": 2
+    },
+    {
+      "id": "concepts/TeamMatch",
+      "label": "TeamMatch (\ub2e8\uccb4\uc804)",
+      "type": "concept",
+      "color": "#E91E63",
+      "path": "wiki/concepts/TeamMatch.md",
+      "group": 0
+    },
+    {
+      "id": "concepts/KTTADatabaseSchema",
+      "label": "KTTADatabaseSchema (KTTA \ub300\ud68c\uc6b4\uc601\uc2dc\uc2a4\ud15c DB)",
+      "type": "concept",
+      "color": "#00BCD4",
+      "path": "wiki/concepts/KTTADatabaseSchema.md",
+      "group": 1
+    },
+    {
+      "id": "concepts/TechStackMigration",
+      "label": "TechStackMigration (\uae30\uc220 \uc2a4\ud0dd \uc804\ud658 \uacc4\ud68d)",
+      "type": "concept",
+      "color": "#673AB7",
+      "path": "wiki/concepts/TechStackMigration.md",
+      "group": 4
+    },
+    {
+      "id": "concepts/PrintDisplay",
+      "label": "PrintDisplay (\uc778\uc1c4 \ud45c\uc2dc \uac1c\uc120)",
+      "type": "concept",
+      "color": "#8BC34A",
+      "path": "wiki/concepts/PrintDisplay.md",
+      "group": 2
+    },
+    {
+      "id": "concepts/RoundRobinLeague",
+      "label": "RoundRobinLeague (\uc870\ubcc4 \ub9ac\uadf8\uc804)",
+      "type": "concept",
+      "color": "#8BC34A",
+      "path": "wiki/concepts/RoundRobinLeague.md",
+      "group": 2
+    },
+    {
+      "id": "concepts/DeploymentArchitecture",
+      "label": "DeploymentArchitecture (\ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98)",
+      "type": "concept",
+      "color": "#673AB7",
+      "path": "wiki/concepts/DeploymentArchitecture.md",
+      "group": 4
+    },
+    {
+      "id": "concepts/AdoptionPolicy",
+      "label": "AdoptionPolicy",
+      "type": "concept",
+      "color": "#009688",
+      "path": "wiki/concepts/AdoptionPolicy.md",
+      "group": 6
+    },
+    {
+      "id": "concepts/ServerRules",
+      "label": "ServerRules",
+      "type": "concept",
+      "color": "#009688",
+      "path": "wiki/concepts/ServerRules.md",
+      "group": 6
+    },
+    {
+      "id": "concepts/PlayerRanking",
+      "label": "PlayerRanking (\uc120\uc218 \ub7ad\ud0b9 \uc2dc\uc2a4\ud15c)",
+      "type": "concept",
+      "color": "#8BC34A",
+      "path": "wiki/concepts/PlayerRanking.md",
+      "group": 2
+    },
+    {
+      "id": "concepts/PlayerVerification",
+      "label": "PlayerVerification (\uc120\uc218 \uac80\uc99d \uc2dc\uc2a4\ud15c)",
+      "type": "concept",
+      "color": "#8BC34A",
+      "path": "wiki/concepts/PlayerVerification.md",
+      "group": 2
+    },
+    {
+      "id": "concepts/TournamentBracket",
+      "label": "TournamentBracket (\ubcf8\uc120 \ub300\uc9c4\ud45c \ubc0f \uc2dc\ub4dc \ubc30\uce58)",
+      "type": "concept",
+      "color": "#8BC34A",
+      "path": "wiki/concepts/TournamentBracket.md",
+      "group": 2
+    },
+    {
+      "id": "sources/20260424-mafia-codereview-reassessment",
+      "label": "20260424 mafia-codereview-harness \uc2e4\ubb3c CLAUDE.md \ud655\uc778 \ud6c4 \u00a717 \uc7ac\ud3c9\uac00",
+      "type": "source",
+      "color": "#009688",
+      "path": "wiki/sources/20260424-mafia-codereview-reassessment.md",
+      "group": 6
+    },
+    {
+      "id": "sources/20260410-ranking-mysql",
+      "label": "\ub7ad\ud0b9 API MySQL \ub9c8\uc774\uadf8\ub808\uc774\uc158 (2026-04-10)",
+      "type": "source",
+      "color": "#8BC34A",
+      "path": "wiki/sources/20260410-ranking-mysql.md",
+      "group": 2
+    },
+    {
+      "id": "sources/20260423-hyperframes-promo-video",
+      "label": "20260423 HyperFrames tt-result 15\ucd08 \ud64d\ubcf4 \uc601\uc0c1 \uc81c\uc791",
+      "type": "source",
+      "color": "#009688",
+      "path": "wiki/sources/20260423-hyperframes-promo-video.md",
+      "group": 6
+    },
+    {
+      "id": "sources/20260413-ranking-province-fix-final",
+      "label": "20260413 \ub7ad\ud0b9 \uc2dc\ub3c4 \uc218\uc815 \ubc0f \ubc84\ud2bc \uc0ad\uc81c, \ucd5c\uc885 \ubc31\uc5c5",
+      "type": "source",
+      "color": "#8BC34A",
+      "path": "wiki/sources/20260413-ranking-province-fix-final.md",
+      "group": 2
+    },
+    {
+      "id": "sources/20260412-fastapi-migration-kickoff",
+      "label": "FastAPI \ub9c8\uc774\uadf8\ub808\uc774\uc158 \ucc29\uc218 \u2014 \uacc4\ud68d \uc218\ub9bd + \uc778\ud504\ub77c \uc900\ube44 (2026-04-12)",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260412-fastapi-migration-kickoff.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260414-team-score-validation",
+      "label": "20260414 \ub2e8\uccb4\uc804 \uc138\ud2b8 \uc810\uc218 \uc624\ub958 \uc218\uc815 \ubc0f \uac80\uc99d \ub85c\uc9c1 \ucd94\uac00",
+      "type": "source",
+      "color": "#E91E63",
+      "path": "wiki/sources/20260414-team-score-validation.md",
+      "group": 0
+    },
+    {
+      "id": "sources/20260425-m1max-cowork-and-m4sellma-sync",
+      "label": "20260425 M1 Max Cowork \ud504\ub808\uc784\uc6cc\ud06c \ub3c4\uc785 \ud310\ub2e8 + m4sellma git baseline \ud655\ub9bd",
+      "type": "source",
+      "color": "#009688",
+      "path": "wiki/sources/20260425-m1max-cowork-and-m4sellma-sync.md",
+      "group": 6
+    },
+    {
+      "id": "sources/20260418-bracket-alignment-fix",
+      "label": "\ub300\uc9c4\ud45c \uc5b4\uadf8\ub7ec\uc9d0 \uc218\uc815 \ubc0f 64\uac15 \ud55c \uc7a5 \ucd9c\ub825",
+      "type": "source",
+      "color": "#8BC34A",
+      "path": "wiki/sources/20260418-bracket-alignment-fix.md",
+      "group": 2
+    },
+    {
+      "id": "sources/20260414-tt-result-design",
+      "label": "20260414 \ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c(tt-result) \ub514\uc790\uc778 \ubb38\uc11c \ud655\uc815",
+      "type": "source",
+      "color": "#E91E63",
+      "path": "wiki/sources/20260414-tt-result-design.md",
+      "group": 0
+    },
+    {
+      "id": "sources/20260414-ranking-player-fixes",
+      "label": "20260414 \ub7ad\ud0b9 \uc120\uc218 \uc815\ubcf4 \uc218\uc815 \ubc0f \uc911\ubcf5 \ud569\uc0b0",
+      "type": "source",
+      "color": "#8BC34A",
+      "path": "wiki/sources/20260414-ranking-player-fixes.md",
+      "group": 2
+    },
+    {
+      "id": "sources/20260418-ktta-web-analysis",
+      "label": "KTTA \uacf5\uc2dd \uc6f9\uc0ac\uc774\ud2b8 \ubd84\uc11d (ktt.or.kr / koreatabletennis.com)",
+      "type": "source",
+      "color": "#00BCD4",
+      "path": "wiki/sources/20260418-ktta-web-analysis.md",
+      "group": 1
+    },
+    {
+      "id": "sources/20260423-m4sellma-hot-standby",
+      "label": "20260423 m4sellma \ud56b \uc2a4\ud0e0\ubc14\uc774 \uc804\ud658 \u2014 VPS \ub3c5\ub9bd \ubcf5\uc81c",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260423-m4sellma-hot-standby.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260411-scoresheet-fix",
+      "label": "\ub2e8\uccb4\uc804 \uae30\ub85d\uc9c0 \uad50\ubcf4\uc0dd\uba85\ucef5 \uae30\uc900 \uc218\uc815 & 16\uac15 game_format \ubc84\uadf8 \uc218\uc815",
+      "type": "source",
+      "color": "#E91E63",
+      "path": "wiki/sources/20260411-scoresheet-fix.md",
+      "group": 0
+    },
+    {
+      "id": "sources/20260416-mindvault-hook-score-fix",
+      "label": "20260416 MindVault \ud6c5 \uc815\ub9ac + \ub2e8\uccb4\uc804 \uc810\uc218 \uc218\uc815 + \uc11c\ubc84 \uac80\uc99d",
+      "type": "source",
+      "color": "#E91E63",
+      "path": "wiki/sources/20260416-mindvault-hook-score-fix.md",
+      "group": 0
+    },
+    {
+      "id": "sources/20260416-tt-result-deployment",
+      "label": "20260416 tt-result.sellma.kr \ubc30\ud3ec \ubc0f \uc2dc\uc2a4\ud15c \ud1b5\ud569",
+      "type": "source",
+      "color": "#E91E63",
+      "path": "wiki/sources/20260416-tt-result-deployment.md",
+      "group": 0
+    },
+    {
+      "id": "sources/20260411-bracket-fix-ngtos",
+      "label": "20260411 \ube0c\ub798\ud0b7 \ubc84\uadf8 \uc218\uc815 & ngtos_tt DB \ubd84\uc11d",
+      "type": "source",
+      "color": "#8BC34A",
+      "path": "wiki/sources/20260411-bracket-fix-ngtos.md",
+      "group": 2
+    },
+    {
+      "id": "sources/20260426-nanoclaw-chief-of-staff",
+      "label": "20260426 \ub098\ub178\ud074\ub85c\ub4dc \ube44\uc11c\uc2e4\uc7a5 \ub3c4\uc785 + \uc6b4\uc601 \uc704\uacc4 \uc7ac\ud3b8",
+      "type": "source",
+      "color": "#009688",
+      "path": "wiki/sources/20260426-nanoclaw-chief-of-staff.md",
+      "group": 6
+    },
+    {
+      "id": "sources/20260414-ranking-president-cup-add",
+      "label": "20260414 \ub300\ud1b5\ub839\uae30 \uc810\uc218 \ucd94\uac00 \ubc0f \ub7ad\ud0b9 UI \uc5c5\ub370\uc774\ud2b8",
+      "type": "source",
+      "color": "#8BC34A",
+      "path": "wiki/sources/20260414-ranking-president-cup-add.md",
+      "group": 2
+    },
+    {
+      "id": "sources/20260413-university-league-build",
+      "label": "\ub300\ud559\uc5f0\ub9f9 \uc2dc\uc2a4\ud15c \uad6c\ucd95 + DB \ubd84\ub9ac + \uc5d1\uc140 \uc5c5\ub85c\ub4dc (2026-04-13)",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260413-university-league-build.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260419-qa-report-fixes",
+      "label": "QA \uac80\uc99d \ubc0f \ubcf4\uc548/\uc778\uc99d \uc218\uc815 (2026-04-19)",
+      "type": "source",
+      "color": "#E91E63",
+      "path": "wiki/sources/20260419-qa-report-fixes.md",
+      "group": 0
+    },
+    {
+      "id": "sources/20260411-backup-restore-awards-fix",
+      "label": "20260411 \ubc31\uc5c5 \ubcf5\uc6d0 & \uc2dc\uc0c1 \ud0ed \uc11c\ube0c\ud0ed \uc815\ub9ac",
+      "type": "source",
+      "color": "#E91E63",
+      "path": "wiki/sources/20260411-backup-restore-awards-fix.md",
+      "group": 0
+    },
+    {
+      "id": "sources/20260412-ranking-hoejanggi-update",
+      "label": "20260412 \ud68c\uc7a5\uae30 \ub7ad\ud0b9 \ud3ec\uc778\ud2b8 \uc0b0\ucd9c \ubc0f DB \uc5c5\ub370\uc774\ud2b8",
+      "type": "source",
+      "color": "#8BC34A",
+      "path": "wiki/sources/20260412-ranking-hoejanggi-update.md",
+      "group": 2
+    },
+    {
+      "id": "sources/20260423-server-rules-and-adoption-policy",
+      "label": "20260423 \uc11c\ubc84 \uaddc\uce59 + \ub3c4\uc785 \uc804 \ubd84\uc11d \uc815\ucc45 \uc81c\uc815",
+      "type": "source",
+      "color": "#009688",
+      "path": "wiki/sources/20260423-server-rules-and-adoption-policy.md",
+      "group": 6
+    },
+    {
+      "id": "sources/20260411-ktta-db-analysis",
+      "label": "KTTA \ub300\ud68c\uc6b4\uc601\uc2dc\uc2a4\ud15c DB \uad6c\uc870 \ubd84\uc11d (2026-04-11)",
+      "type": "source",
+      "color": "#FF5722",
+      "path": "wiki/sources/20260411-ktta-db-analysis.md",
+      "group": 3
+    },
+    {
+      "id": "sources/20260423-security-audit-response",
+      "label": "20260423 m4sellma \ubcf4\uc548 \uc810\uac80 \ubcf4\uace0\uc11c \ub300\uc751 + UniFi \ud3ec\uc6cc\ub529 \uc2e4\uce21",
+      "type": "source",
+      "color": "#009688",
+      "path": "wiki/sources/20260423-security-audit-response.md",
+      "group": 6
+    },
+    {
+      "id": "sources/20260422-bluekiwi-mcp-setup",
+      "label": "20260422 BlueKiwi MCP \uc11c\ubc84 \uc124\uce58 \ubc0f \uc5f0\uacb0",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260422-bluekiwi-mcp-setup.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260422-calendar-ktta-schedule",
+      "label": "20260422 \uad6c\uae00 \uce98\ub9b0\ub354 \ub4f1\ub85d \ubc0f KTTA \uc804\ubb38 \ub300\ud68c \uc77c\uc815 \ubd84\uc11d",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260422-calendar-ktta-schedule.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260413-university-awards-final",
+      "label": "\ub300\ud559\uc5f0\ub9f9 \uc2dc\uc0c1 + \uc77c\uc815 + \uac80\uc0ac\uacb0\uacfc + \ub9c8\ubb34\ub9ac (2026-04-13)",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260413-university-awards-final.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260420-tt-harness-kit-deployment",
+      "label": "20260420-tt-harness-kit-deployment",
+      "type": "unknown",
+      "color": "#FFC107",
+      "path": "wiki/sources/20260420-tt-harness-kit-deployment.md",
+      "group": 5
+    },
+    {
+      "id": "sources/20260424-mafia-codereview-deferred",
+      "label": "20260424 mafia-codereview-harness plugin \ub3c4\uc785 \uc804 \ubd84\uc11d \u2192 \ub300\ud68c \ud6c4 \uc7ac\uac80\ud1a0",
+      "type": "source",
+      "color": "#009688",
+      "path": "wiki/sources/20260424-mafia-codereview-deferred.md",
+      "group": 6
+    },
+    {
+      "id": "sources/20260410-print-display",
+      "label": "\ub300\uc9c4\ud45c/\uae30\ub85d\uc9c0 \ucd9c\ub825 \ud45c\uc2dc \uac1c\uc120 \uc791\uc5c5 (2026-04-10)",
+      "type": "source",
+      "color": "#8BC34A",
+      "path": "wiki/sources/20260410-print-display.md",
+      "group": 2
+    },
+    {
+      "id": "sources/20260423-fe-wiring-completion",
+      "label": "20260423 BlueKiwi WF:4 Step 6 FE \ubc30\uc120 \uc644\uc131 + \ud504\ub85c\uc138\uc2a4 \ub9ac\ubdf0",
+      "type": "source",
+      "color": "#E91E63",
+      "path": "wiki/sources/20260423-fe-wiring-completion.md",
+      "group": 0
+    },
+    {
+      "id": "sources/20260422-terminal-mindvault-fix",
+      "label": "20260422 MindVault \ud6c5 \uc218\uc815 + Windows \ud130\ubbf8\ub110 \uc120\ud0dd",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260422-terminal-mindvault-fix.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260417-ktta-transmission-analysis",
+      "label": "20260417 \ub300\ud55c\ud0c1\uad6c\ud611\ud68c \uacbd\uae30\uacb0\uacfc \uc804\uc1a1 \uc2dc\uc2a4\ud15c \ubd84\uc11d",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260417-ktta-transmission-analysis.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260417-ktta-auto-transfer-plan",
+      "label": "20260417 KTTA \uacbd\uae30\uacb0\uacfc \uc790\ub3d9 \uc804\uc1a1 \uacc4\ud68d",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260417-ktta-auto-transfer-plan.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260426-operating-model-and-venue-fix",
+      "label": "20260426 \uc6b4\uc601 \ubaa8\ub378 \ud655\uc815 + \ub300\ud559\uc5f0\ub9f9\uc804 \uc7a5\uc18c \uc218\uc815",
+      "type": "source",
+      "color": "#009688",
+      "path": "wiki/sources/20260426-operating-model-and-venue-fix.md",
+      "group": 6
+    },
+    {
+      "id": "sources/20260424-operational-workflow",
+      "label": "20260424 \uc6b4\uc601 \uc6cc\ud06c\ud50c\ub85c\uc6b0 \u00a77 \uc81c\uc815",
+      "type": "source",
+      "color": "#009688",
+      "path": "wiki/sources/20260424-operational-workflow.md",
+      "group": 6
+    },
+    {
+      "id": "sources/20260424-brand-rollout",
+      "label": "20260424 TT-Result \ube0c\ub79c\ub4dc \uc2e4\ubc30\ud3ec (VPS + m4sellma)",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260424-brand-rollout.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260426-macbookair-github-briefing",
+      "label": "20260426 MacBook Air GitHub \ube0c\ub9ac\ud551 + \ub098\ub178\ud074\ub85c\ub4dc \ud604\uc7a5 \uc778\uacc4",
+      "type": "source",
+      "color": "#009688",
+      "path": "wiki/sources/20260426-macbookair-github-briefing.md",
+      "group": 6
+    },
+    {
+      "id": "sources/52nd-president-cup",
+      "label": "\uc81c52\ud68c \ud68c\uc7a5\uae30 \uc804\uad6d \ucd08\ub4f1\ud559\uad50 \ud0c1\uad6c\ub300\ud68c \uc6b4\uc601 \uc2dc\uc2a4\ud15c",
+      "type": "source",
+      "color": "#8BC34A",
+      "path": "wiki/sources/52nd-president-cup.md",
+      "group": 2
+    },
+    {
+      "id": "sources/20260410-strategy-next-phase",
+      "label": "2026-04-10 \uc804\ub7b5 \ubd84\uc11d \ubc0f \ub2e4\uc74c \ub2e8\uacc4 \uacc4\ud68d",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260410-strategy-next-phase.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260422-skill-evaluation",
+      "label": "20260422 Claude Code \uc678\ubd80 \uc2a4\ud0ac \ud3c9\uac00",
+      "type": "source",
+      "color": "#673AB7",
+      "path": "wiki/sources/20260422-skill-evaluation.md",
+      "group": 4
+    },
+    {
+      "id": "sources/20260413-university-complete",
+      "label": "\ub300\ud559\uc5f0\ub9f9 \uc2dc\uc2a4\ud15c \uc644\uc131 \u2014 \uc804 \uc885\ubaa9 \ub300\uc9c4\ud45c + \uac80\uc0ac\uacb0\uacfc + \uc77c\uc815 (2026-04-13)",
+      "type": "source",
+      "color": "#8BC34A",
+      "path": "wiki/sources/20260413-university-complete.md",
+      "group": 2
+    },
+    {
+      "id": "syntheses/20260420-src-migration",
+      "label": "src/ \uad6c\uc870 \ub9c8\uc774\uadf8\ub808\uc774\uc158",
+      "type": "synthesis",
+      "color": "#673AB7",
+      "path": "wiki/syntheses/20260420-src-migration.md",
+      "group": 4
+    },
+    {
+      "id": "syntheses/20260417-codex-review-compat-router",
+      "label": "Codex \ucf54\ub4dc \ub9ac\ubdf0 \u2014 \ud638\ud658 \ub77c\uc6b0\ud130 \ubcf4\uc548 \ubc0f \ub300\uc9c4\ud45c \ubb38\uc81c",
+      "type": "synthesis",
+      "color": "#8BC34A",
+      "path": "wiki/syntheses/20260417-codex-review-compat-router.md",
+      "group": 2
+    },
+    {
+      "id": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "label": "\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8 \uacc4\ud68d",
+      "type": "synthesis",
+      "color": "#E91E63",
+      "path": "wiki/syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d.md",
+      "group": 0
+    },
+    {
+      "id": "entities/KTTA-TOS",
+      "label": "KTTA-TOS (\ub300\ud68c\uc6b4\uc601\uc2dc\uc2a4\ud15c)",
+      "type": "entity",
+      "color": "#673AB7",
+      "path": "wiki/entities/KTTA-TOS.md",
+      "group": 4
+    },
+    {
+      "id": "entities/KETTF",
+      "label": "KETTF (\ud55c\uad6d\ucd08\ub4f1\ud0c1\uad6c\uc5f0\ub9f9)",
+      "type": "entity",
+      "color": "#8BC34A",
+      "path": "wiki/entities/KETTF.md",
+      "group": 2
+    },
+    {
+      "id": "entities/Gnuboard6",
+      "label": "Gnuboard6 (\uadf8\ub204\ubcf4\ub4dc6)",
+      "type": "entity",
+      "color": "#673AB7",
+      "path": "wiki/entities/Gnuboard6.md",
+      "group": 4
+    },
+    {
+      "id": "entities/Sellma",
+      "label": "Sellma (sellma.kr \ud50c\ub7ab\ud3fc)",
+      "type": "entity",
+      "color": "#673AB7",
+      "path": "wiki/entities/Sellma.md",
+      "group": 4
+    },
+    {
+      "id": "entities/UniversityLeague",
+      "label": "UniversityLeague (\ub300\ud559\uc5f0\ub9f9 \ub300\ud68c \uc2dc\uc2a4\ud15c)",
+      "type": "entity",
+      "color": "#673AB7",
+      "path": "wiki/entities/UniversityLeague.md",
+      "group": 4
+    },
+    {
+      "id": "entities/52ndPresidentCup",
+      "label": "\uc81c52\ud68c \ud68c\uc7a5\uae30 \uc804\uad6d \ucd08\ub4f1\ud559\uad50 \ud0c1\uad6c\ub300\ud68c",
+      "type": "entity",
+      "color": "#8BC34A",
+      "path": "wiki/entities/52ndPresidentCup.md",
+      "group": 2
+    }
+  ],
+  "edges": [
+    {
+      "from": "overview",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/PrintDisplay",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/PlayerVerification",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/PlayerRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "entities/Gnuboard6",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/RoundRobinLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/TieBreakRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "entities/KETTF",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/ScoreSheet",
+      "to": "concepts/RoundRobinLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/ScoreSheet",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/ScoreSheet",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/ScoreSheet",
+      "to": "entities/KETTF",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/ScoreSheet",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/FieldOperationLessons",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/FieldOperationLessons",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/FieldOperationLessons",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TTResultRules",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TTResultRules",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TTResultRules",
+      "to": "concepts/RoundRobinLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TTResultRules",
+      "to": "concepts/TieBreakRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TTResultRules",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TieBreakRanking",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TieBreakRanking",
+      "to": "concepts/RoundRobinLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TieBreakRanking",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TieBreakRanking",
+      "to": "entities/KETTF",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TieBreakRanking",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TeamMatch",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TeamMatch",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TeamMatch",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TeamMatch",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TeamMatch",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TechStackMigration",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TechStackMigration",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TechStackMigration",
+      "to": "entities/Gnuboard6",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/PrintDisplay",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/PrintDisplay",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/PrintDisplay",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/PrintDisplay",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/RoundRobinLeague",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/RoundRobinLeague",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/RoundRobinLeague",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/RoundRobinLeague",
+      "to": "concepts/TieBreakRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/DeploymentArchitecture",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/DeploymentArchitecture",
+      "to": "concepts/PlayerVerification",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/DeploymentArchitecture",
+      "to": "entities/Sellma",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/DeploymentArchitecture",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/DeploymentArchitecture",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/AdoptionPolicy",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/AdoptionPolicy",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/ServerRules",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/ServerRules",
+      "to": "entities/Sellma",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/ServerRules",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/ServerRules",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/PlayerRanking",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/PlayerRanking",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/PlayerRanking",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/PlayerVerification",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/PlayerVerification",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/PlayerVerification",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TournamentBracket",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TournamentBracket",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TournamentBracket",
+      "to": "sources/20260411-bracket-fix-ngtos",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TournamentBracket",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TournamentBracket",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "concepts/TournamentBracket",
+      "to": "concepts/TieBreakRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-mafia-codereview-reassessment",
+      "to": "sources/20260424-mafia-codereview-deferred",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-mafia-codereview-reassessment",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-mafia-codereview-reassessment",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-ranking-mysql",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-ranking-mysql",
+      "to": "concepts/PlayerRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-ranking-mysql",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-hyperframes-promo-video",
+      "to": "entities/Sellma",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-hyperframes-promo-video",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-ranking-province-fix-final",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-ranking-province-fix-final",
+      "to": "concepts/PlayerRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-ranking-province-fix-final",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260412-fastapi-migration-kickoff",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260412-fastapi-migration-kickoff",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260412-fastapi-migration-kickoff",
+      "to": "entities/Sellma",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260412-fastapi-migration-kickoff",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260412-fastapi-migration-kickoff",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-team-score-validation",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-team-score-validation",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-team-score-validation",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260425-m1max-cowork-and-m4sellma-sync",
+      "to": "sources/20260424-mafia-codereview-reassessment",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260425-m1max-cowork-and-m4sellma-sync",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260425-m1max-cowork-and-m4sellma-sync",
+      "to": "sources/20260424-mafia-codereview-deferred",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260425-m1max-cowork-and-m4sellma-sync",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260418-bracket-alignment-fix",
+      "to": "concepts/PrintDisplay",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260418-bracket-alignment-fix",
+      "to": "concepts/TTResultRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260418-bracket-alignment-fix",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-tt-result-design",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-tt-result-design",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-tt-result-design",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-tt-result-design",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-tt-result-design",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-ranking-player-fixes",
+      "to": "concepts/PlayerRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-ranking-player-fixes",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260418-ktta-web-analysis",
+      "to": "concepts/KTTADatabaseSchema",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260418-ktta-web-analysis",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260418-ktta-web-analysis",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-m4sellma-hot-standby",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-m4sellma-hot-standby",
+      "to": "entities/Sellma",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-m4sellma-hot-standby",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-scoresheet-fix",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-scoresheet-fix",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-scoresheet-fix",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-scoresheet-fix",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260416-mindvault-hook-score-fix",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260416-mindvault-hook-score-fix",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260416-mindvault-hook-score-fix",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260416-tt-result-deployment",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260416-tt-result-deployment",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260416-tt-result-deployment",
+      "to": "concepts/PlayerRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260416-tt-result-deployment",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260416-tt-result-deployment",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260416-tt-result-deployment",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-bracket-fix-ngtos",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-bracket-fix-ngtos",
+      "to": "concepts/PrintDisplay",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-bracket-fix-ngtos",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-bracket-fix-ngtos",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260426-nanoclaw-chief-of-staff",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260426-nanoclaw-chief-of-staff",
+      "to": "sources/20260426-operating-model-and-venue-fix",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-ranking-president-cup-add",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260414-ranking-president-cup-add",
+      "to": "concepts/PlayerRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-university-league-build",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-university-league-build",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-university-league-build",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-university-league-build",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260419-qa-report-fixes",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260419-qa-report-fixes",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260419-qa-report-fixes",
+      "to": "concepts/TTResultRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-backup-restore-awards-fix",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-backup-restore-awards-fix",
+      "to": "concepts/PlayerVerification",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-backup-restore-awards-fix",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260411-backup-restore-awards-fix",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260412-ranking-hoejanggi-update",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260412-ranking-hoejanggi-update",
+      "to": "concepts/PlayerRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260412-ranking-hoejanggi-update",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260412-ranking-hoejanggi-update",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-server-rules-and-adoption-policy",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-server-rules-and-adoption-policy",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-server-rules-and-adoption-policy",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-security-audit-response",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-security-audit-response",
+      "to": "entities/Sellma",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-security-audit-response",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-security-audit-response",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260422-bluekiwi-mcp-setup",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260422-bluekiwi-mcp-setup",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260422-calendar-ktta-schedule",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260422-calendar-ktta-schedule",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260422-calendar-ktta-schedule",
+      "to": "entities/KETTF",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-university-awards-final",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-university-awards-final",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-mafia-codereview-deferred",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-print-display",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-print-display",
+      "to": "concepts/PrintDisplay",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-print-display",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-print-display",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-print-display",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-fe-wiring-completion",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-fe-wiring-completion",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260423-fe-wiring-completion",
+      "to": "concepts/TTResultRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260422-terminal-mindvault-fix",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260422-terminal-mindvault-fix",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260417-ktta-transmission-analysis",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260417-ktta-transmission-analysis",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260417-ktta-transmission-analysis",
+      "to": "entities/KTTA-TOS",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260417-ktta-auto-transfer-plan",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260417-ktta-auto-transfer-plan",
+      "to": "entities/KTTA-TOS",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260426-operating-model-and-venue-fix",
+      "to": "sources/20260425-m1max-cowork-and-m4sellma-sync",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260426-operating-model-and-venue-fix",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260426-operating-model-and-venue-fix",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-operational-workflow",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-operational-workflow",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-operational-workflow",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-operational-workflow",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-brand-rollout",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-brand-rollout",
+      "to": "entities/Sellma",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260424-brand-rollout",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260426-macbookair-github-briefing",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260426-macbookair-github-briefing",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260426-macbookair-github-briefing",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/52nd-president-cup",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/52nd-president-cup",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/52nd-president-cup",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/52nd-president-cup",
+      "to": "concepts/PlayerVerification",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/52nd-president-cup",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/52nd-president-cup",
+      "to": "concepts/RoundRobinLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/52nd-president-cup",
+      "to": "entities/Sellma",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/52nd-president-cup",
+      "to": "concepts/TieBreakRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/52nd-president-cup",
+      "to": "entities/KETTF",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/52nd-president-cup",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-strategy-next-phase",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-strategy-next-phase",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-strategy-next-phase",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-strategy-next-phase",
+      "to": "concepts/PlayerRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-strategy-next-phase",
+      "to": "entities/Gnuboard6",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-strategy-next-phase",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260410-strategy-next-phase",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260422-skill-evaluation",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260422-skill-evaluation",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-university-complete",
+      "to": "concepts/TieBreakRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-university-complete",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-university-complete",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260413-university-complete",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "syntheses/20260420-src-migration",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "syntheses/20260420-src-migration",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "syntheses/20260417-codex-review-compat-router",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "syntheses/20260417-codex-review-compat-router",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "syntheses/20260417-codex-review-compat-router",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "to": "concepts/FieldOperationLessons",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/KETTF",
+      "to": "concepts/TieBreakRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/KETTF",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/KETTF",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/Gnuboard6",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/Gnuboard6",
+      "to": "entities/Sellma",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/Gnuboard6",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/Sellma",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/Sellma",
+      "to": "entities/UniversityLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/Sellma",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/Sellma",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/UniversityLeague",
+      "to": "entities/52ndPresidentCup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/UniversityLeague",
+      "to": "concepts/TechStackMigration",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/UniversityLeague",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/UniversityLeague",
+      "to": "entities/Sellma",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/UniversityLeague",
+      "to": "entities/KETTF",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/52ndPresidentCup",
+      "to": "concepts/PlayerVerification",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/52ndPresidentCup",
+      "to": "concepts/PlayerRanking",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/52ndPresidentCup",
+      "to": "concepts/ScoreSheet",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/52ndPresidentCup",
+      "to": "concepts/RoundRobinLeague",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/52ndPresidentCup",
+      "to": "sources/52nd-president-cup",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/52ndPresidentCup",
+      "to": "concepts/TeamMatch",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/52ndPresidentCup",
+      "to": "entities/KETTF",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "entities/52ndPresidentCup",
+      "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    }
+  ],
+  "built": "2026-04-26"
+}

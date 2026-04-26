@@ -3,7 +3,7 @@ title: "Overview"
 type: synthesis
 tags: [table-tennis, tournament, flask, python, korea]
 sources: [52nd-president-cup]
-last_updated: 2026-04-14
+last_updated: 2026-04-26
 ---
 
 # Overview
@@ -146,4 +146,25 @@ tt-result 배포: Apache VirtualHost → 127.0.0.1:8100, Let's Encrypt SSL, syst
 - 백업·테스트 m4sellma 독립 가동 중 (8100 운영 미러 + 8101 HTTPS + 8102 신기능)
 - 실데이터 smoke: 선수 검색 실제 227명 반환, 내 경기·기권 API 모두 200
 - 다음 단계: D-2 VPS 에 alembic upgrade 정식 적용 → 운영 DB 스키마를 m4sellma 와 정합
+
+---
+
+## 2026-04-26 업데이트 (D-2, MacBook Air 현장 인계)
+
+### 운영 체제 최종 확립
+- **나노클로드 (m4sellma Docker)** = tt-result 총괄 비서실장 (2026-04-26 오후 확정)
+- **MacBook Air(몽실) Claude** = D-0~D+4 현장 실행자
+- **D-2 릴리스 항목**(Alembic 마이그레이션 등) → 사용자 판단으로 연기
+- 내일(D-1) 단체전 대진표 추첨 종료 후 **대진표 작성이 첫 번째 현장 업무**
+
+### 이번 세션 기술 작업
+- MacBook Air 에 `gh auth login` → `stmlscd` 연결 완료
+- `gh repo clone stmlscd/tt-result` 로컬 클론 완료
+- `llm-wiki-agent` 서브모듈 `.gitmodules` 누락 → `git rm --cached` + 직접 clone 복구
+- GitHub 브리핑 완료: CLAUDE.md, PROJECT_BRIEF.md, 현장대응 체크리스트, D-2 릴리스 가이드 숙지
+
+### 현재 상태 (D-2, 2026-04-26)
+- 대회 장소: 제천시 어울림체육관 (D-0 = 2026-04-28)
+- 폴백 URL: http://www.sellma.kr:8100 (QR 코드 인쇄 준비)
+- 미구현 항목: 6~16인 매치오더, 단체전 경기수 가변(7경기 하드코딩), 256강 B타입, 랭킹 API
 

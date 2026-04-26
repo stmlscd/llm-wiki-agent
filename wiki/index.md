@@ -47,6 +47,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260425 M1 Max Cowork 프레임워크 도입 판단 + m4sellma git baseline 확립](sources/20260425-m1max-cowork-and-m4sellma-sync.md) — Superpowers/GSD/GSTACK 보류 + Phase A/B/C + Playwright/훅 Phase C 채택 + git bundle 무인증 동기화
 - [20260426 운영 모델 확정 + 대학연맹전 장소 수정](sources/20260426-operating-model-and-venue-fix.md) — 평시=Windows PC Claude/대회=MacBook Air 현장/cloud Claude 보류, 장소=제천시 어울림체육관, 다중 Claude 충돌 방지
 - [20260426 나노클로드 비서실장 도입 + 운영 위계 재편](sources/20260426-nanoclaw-chief-of-staff.md) — m4sellma Docker nanoclaw=총괄, Windows PC Claude=실행자, 대회 현장 지시 권한 포함, 인터페이스 TBD
+- [20260426 MacBook Air GitHub 브리핑 + 나노클로드 현장 인계](sources/20260426-macbookair-github-briefing.md) — D-2 MacBook Air에서 GitHub 전체 브리핑, llm-wiki 서브모듈 복구, 내일 대진표 작성부터 현장 실무 시작
 
 
 ## Entities
