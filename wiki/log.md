@@ -2,6 +2,19 @@
 
 Append-only chronological record of all operations.
 
+## [2026-04-26] ingest | 운영 모델 확정 + 대학연맹전 장소 수정 + m4sellma 재생성
+
+- **소스**: `raw/20260426_operating_model_and_venue_fix.md`
+- **생성된 페이지**: `sources/20260426-operating-model-and-venue-fix.md`
+- **신규 문서**: `docs/operating-model.md` (7섹션)
+- **변경된 파일**: `PROJECT_BRIEF.md` (장소 ce3b255), `memory/user_devices.md`, `memory/project_operating_model_20260426.md` (신규)
+- **핵심**:
+  - 평시 Windows PC Claude 총괄 / 대회 D-0~D+4 MacBook Air 현장 / cloud Claude 통합 관제는 API 버그로 보류
+  - 대학연맹전 장소: 인천 계양체육관 → **제천시 어울림체육관** (commit ce3b255)
+  - M1 Max Claude vs Windows PC Claude 의 m4sellma `~/tt-result/` 처리 충돌 → `docs/operating-model.md` 로 가정 통일
+  - MacBook Air (몽실) ≠ m4sellma 서버 (Mac mini) 명확화
+- **모순**: 외형상 모순 (지우기 vs 재생성) → 가정(미래 그림 vs 현재 fallback) 통일로 해소
+
 ## [2026-04-25] ingest | M1 Max Cowork 프레임워크 도입 판단 + m4sellma git baseline 확립
 
 - **소스**: `raw/20260425_m1max_cowork_and_m4sellma_sync.md`

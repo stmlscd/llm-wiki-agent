@@ -45,6 +45,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260424 mafia-codereview-harness plugin 도입 전 분석 → 대회 후 재검토](sources/20260424-mafia-codereview-deferred.md) — §17 정책의 첫 실전 적용 사례, 6항목 분석 → 대회 후 재검토 보류
 - [20260424 mafia-codereview-harness 실물 CLAUDE.md 확인 후 §17 재평가](sources/20260424-mafia-codereview-reassessment.md) — 실물 확인 후 안정성 리스크 하향·유지비용 상향, 보류 사유 재정의
 - [20260425 M1 Max Cowork 프레임워크 도입 판단 + m4sellma git baseline 확립](sources/20260425-m1max-cowork-and-m4sellma-sync.md) — Superpowers/GSD/GSTACK 보류 + Phase A/B/C + Playwright/훅 Phase C 채택 + git bundle 무인증 동기화
+- [20260426 운영 모델 확정 + 대학연맹전 장소 수정](sources/20260426-operating-model-and-venue-fix.md) — 평시=Windows PC Claude/대회=MacBook Air 현장/cloud Claude 보류, 장소=제천시 어울림체육관, 다중 Claude 충돌 방지
 
 
 ## Entities
