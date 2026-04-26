@@ -2,6 +2,19 @@
 
 Append-only chronological record of all operations.
 
+## [2026-04-26] ingest | 나노클로드 비서실장 도입 + 운영 위계 재편
+
+- **소스**: `raw/20260426_nanoclaw_chief_of_staff.md`
+- **생성된 페이지**: `sources/20260426-nanoclaw-chief-of-staff.md`
+- **변경된 파일**: `docs/operating-model.md` (§1 위계 구조 신설, §2 + §6 갱신), `memory/project_operating_model_20260426.md`, `memory/user_devices.md`, `memory/MEMORY.md`
+- **핵심**:
+  - nanoclaw (m4sellma Docker, openclaw Claude Code 친화 변형) = tt-result 총괄 비서실장
+  - Windows PC Claude = 실행자 (위치 변경)
+  - 대회 D-0~D+4 도 나노클로드가 현장·긴급 판단·지시 가능
+  - 인터페이스 (지시 전달 방식) = TBD, 첫 운영 시점 확정
+  - §17 정식 분석은 대회 후 환류
+- **모순**: 오전 모델("Windows PC Claude 총괄") → 오후 갱신("나노클로드 총괄") — 같은 날 정책 진화로 해소
+
 ## [2026-04-26] ingest | 운영 모델 확정 + 대학연맹전 장소 수정 + m4sellma 재생성
 
 - **소스**: `raw/20260426_operating_model_and_venue_fix.md`
