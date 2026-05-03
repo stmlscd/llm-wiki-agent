@@ -568,3 +568,14 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 - BlueKiwi v1.2.3 설치, 프로필 tt-result
 - Claude Code + Claude Desktop MCP 연결 완료
 - 8개 런타임 연동
+
+## [2026-05-03] ingest | D+1 세션 — Auth + 대회 생성 V1 + m4sellma 4 DB 마이그레이션
+
+- **소스**: `wiki/sources/20260503-d1-session-migration-and-verification.md`
+- 대회 종료 다음날 (D+1) 누적 17 commit
+- P0-5 Auth: 비번+2FA(TOTP/Telegram) 백엔드 완성, 단위테스트 10/10
+- P0-10 대회 생성 시스템 V1: 4유형 카테고리, unified 3탭 화면, 랭킹 별도 메뉴
+- m4sellma 4 DB 일괄 마이그레이션 (alembic d4f7a2c8b3e6): tt_result/kuttf_db/kettf_db/ktta_db
+- 호프스 대회(tt_result.id=3) tournament_type='elementary_unified' 마킹
+- A~D 검증 통과 (8102/src/ 기준)
+- 미해결: 외부 80/8843 forwarding (app/ OLD), /api/ranking DB 매핑, 8843 SSL 라우터
