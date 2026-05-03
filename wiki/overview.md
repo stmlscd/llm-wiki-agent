@@ -168,3 +168,48 @@ tt-result 배포: Apache VirtualHost → 127.0.0.1:8100, Let's Encrypt SSL, syst
 - 폴백 URL: http://www.sellma.kr:8100 (QR 코드 인쇄 준비)
 - 미구현 항목: 6~16인 매치오더, 단체전 경기수 가변(7경기 하드코딩), 256강 B타입, 랭킹 API
 
+---
+
+## 2026-05-03 업데이트 (대회 종료 D+1 ~ 재연결 세션)
+
+### Auth 업그레이드 — P0-5 (D+1/D+2)
+
+**[[TwoFactorAuth]]**: OAuth-우선 방식을 포기하고 비밀번호 + 2FA(TOTP/Telegram) 조합으로 확정.
+- **채택**: pyotp(TOTP), Telegram Bot API 직접 호출 (urllib, watchdog 패턴 재사용)
+- **부채택**: Authlib(OAuth 복잡성), fastapi-users(통제력 상실), Kakao 알림톡(사업자 등록 부담)
+- **권한 4역할**: superadmin / admin(league-scoped) / operator / viewer
+- **D+2 백엔드**: `src/core/two_factor.py` + `src/routes/auth_2fa.py` + 단위테스트 10/10 PASS
+- **미완**: Auth D+3 — TOTP/Telegram 등록 UI, audit_log 조회, 역할 분리 UI
+
+### 대회 생성 시스템 V1 — P0-10
+
+4유형 카테고리 정식화 (`docs/대회생성규칙-V1.md`):
+- 유형 1~3: 예선 리그 → 본선 토너먼트
+- **유형 4 (국선·왕중왕전)**: 예선 리그 → 본선 리그전(또는 토너먼트, 운영자 선택)
+  - **본선 배정 공식**: N조 1위 → N번, N조 2위 → (17-N)번
+  - 예선 동조 경기 결과를 본선에 그대로 인계 (재경기 없음)
+  - 본선 120경기 − 8예선쌍 = 112신규 + 8인계
+
+`tournament_unified.html` (3탭: 예선/본선/검증결과) + `tournament-unified.js` + 랭킹 별도 메뉴 구현 완료.
+
+### 데이터 격리 — tournament_id
+
+기존 players/results가 league_id만으로 묶여 다른 대회 데이터 노출 위험 발견.
+- **Step A**: `_is_isolated_tournament()` 게이트 — unified 대회는 read 빈 응답, write 거부
+- **Step B**: Alembic 마이그레이션으로 +tournament_id 컬럼 추가 + 백필
+
+### 알려진 설계 결정 추가
+
+| 결정 | 이유 |
+|------|------|
+| 비번+2FA (OAuth 폐기) | Kakao 사업자 등록 부담, pyotp로 충분 (2026-05-03 확정) |
+| tournament_id 격리 | league_id만으로 다중 대회 데이터 혼용 방지 |
+| 랭킹 별도 페이지 | tournament_unified 탭 복잡도 분리 |
+
+### 현재 상태 (2026-05-03, m4sellma 기준)
+
+- **GitHub**: `042da2f` (latest main) — m4sellma 동기화 완료
+- **DB**: 4개 DB 마이그레이션 완료 (tt_result/kuttf_db/kettf_db/ktta_db)
+- **외부 접근**: 80→8100(app/ OLD), 8843→8101(app/ OLD), 8102(src/) 미노출 — 결정 대기
+- **미완**: Phase 5 (유형 4 예선→본선 알고리즘), Auth D+3, VPS 배포 동기화
+

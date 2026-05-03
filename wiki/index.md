@@ -48,6 +48,8 @@ This file is maintained by the LLM. Updated on every ingest.
 - [20260426 운영 모델 확정 + 대학연맹전 장소 수정](sources/20260426-operating-model-and-venue-fix.md) — 평시=Windows PC Claude/대회=MacBook Air 현장/cloud Claude 보류, 장소=제천시 어울림체육관, 다중 Claude 충돌 방지
 - [20260426 나노클로드 비서실장 도입 + 운영 위계 재편](sources/20260426-nanoclaw-chief-of-staff.md) — m4sellma Docker nanoclaw=총괄, Windows PC Claude=실행자, 대회 현장 지시 권한 포함, 인터페이스 TBD
 - [20260426 MacBook Air GitHub 브리핑 + 나노클로드 현장 인계](sources/20260426-macbookair-github-briefing.md) — D-2 MacBook Air에서 GitHub 전체 브리핑, llm-wiki 서브모듈 복구, 내일 대진표 작성부터 현장 실무 시작
+- [20260503 D+1 세션 — Auth + 대회 생성 V1 + m4sellma 4 DB 마이그레이션](sources/20260503-d1-session-migration-and-verification.md) — P0-5 2FA 백엔드(pyotp) + 유형 4 unified 화면 + tournament_id 데이터 격리 + 4 DB 마이그레이션 완료
+- [20260503 재연결 세션 — F.zip 압축 해제 + GitHub 동기화](sources/20260503-reconnect-fzip-github-sync.md) — M1 Max 15GB 백업 CP949 처리 (64,556파일) + 26커밋 pull + llm-wiki-agent 서브모듈 초기화
 
 
 ## Entities
@@ -73,6 +75,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [KTTADatabaseSchema (KTTA DB 구조)](concepts/KTTADatabaseSchema.md) — ngtos_tt DB 테이블 분석
 - [ServerRules (서버 규칙 V1)](concepts/ServerRules.md) — 2026-04-23 제정. 운영=VPS, 백업·테스트=m4sellma, 상시 동일 데이터
 - [AdoptionPolicy (도입 전 분석 정책)](concepts/AdoptionPolicy.md) — 2026-04-23 제정. Skill/MCP/Workflow 도입 전 6항목 분석→사용자 허가
+- [TwoFactorAuth (2단계 인증 시스템)](concepts/TwoFactorAuth.md) — pyotp(TOTP)+Telegram 채택, OAuth/fastapi-users 부채택, 권한 4역할, D+2 백엔드 완성
 
 ## Syntheses
 - [탁구경기결과관리시스템 업데이트 계획](syntheses/탁구경기결과관리시스템-업데이트-계획.md) — 52회 현장 사고 분석 기반, Phase 0~3 단계별 계획 및 재발 방지 체크리스트

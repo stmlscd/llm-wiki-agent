@@ -10,7 +10,7 @@
     },
     {
       "id": "concepts/ScoreSheet",
-      "label": "ScoreSheet (KTT \ud45c\uc900 \uae30\ub85d\uc9c0)",
+      "label": "ScoreSheet (KTT 표준 기록지)",
       "type": "concept",
       "color": "#8BC34A",
       "path": "wiki/concepts/ScoreSheet.md",
@@ -18,7 +18,7 @@
     },
     {
       "id": "concepts/FieldOperationLessons",
-      "label": "FieldOperationLessons (\ud604\uc7a5 \uc6b4\uc601 \uad50\ud6c8)",
+      "label": "FieldOperationLessons (현장 운영 교훈)",
       "type": "concept",
       "color": "#E91E63",
       "path": "wiki/concepts/FieldOperationLessons.md",
@@ -26,7 +26,7 @@
     },
     {
       "id": "concepts/TTResultRules",
-      "label": "TTResultRules (tt-result \uc2dc\uc2a4\ud15c \uc801\uc6a9 \uaddc\uce59 V1.0)",
+      "label": "TTResultRules (tt-result 시스템 적용 규칙 V1.0)",
       "type": "concept",
       "color": "#E91E63",
       "path": "wiki/concepts/TTResultRules.md",
@@ -34,7 +34,7 @@
     },
     {
       "id": "concepts/TieBreakRanking",
-      "label": "TieBreakRanking (\uacf5\ubc29\uc728 \ub3d9\ub960 \ucc98\ub9ac)",
+      "label": "TieBreakRanking (공방율 동률 처리)",
       "type": "concept",
       "color": "#8BC34A",
       "path": "wiki/concepts/TieBreakRanking.md",
@@ -42,7 +42,7 @@
     },
     {
       "id": "concepts/TeamMatch",
-      "label": "TeamMatch (\ub2e8\uccb4\uc804)",
+      "label": "TeamMatch (단체전)",
       "type": "concept",
       "color": "#E91E63",
       "path": "wiki/concepts/TeamMatch.md",
@@ -50,7 +50,7 @@
     },
     {
       "id": "concepts/KTTADatabaseSchema",
-      "label": "KTTADatabaseSchema (KTTA \ub300\ud68c\uc6b4\uc601\uc2dc\uc2a4\ud15c DB)",
+      "label": "KTTADatabaseSchema (KTTA 대회운영시스템 DB)",
       "type": "concept",
       "color": "#00BCD4",
       "path": "wiki/concepts/KTTADatabaseSchema.md",
@@ -58,7 +58,7 @@
     },
     {
       "id": "concepts/TechStackMigration",
-      "label": "TechStackMigration (\uae30\uc220 \uc2a4\ud0dd \uc804\ud658 \uacc4\ud68d)",
+      "label": "TechStackMigration (기술 스택 전환 계획)",
       "type": "concept",
       "color": "#673AB7",
       "path": "wiki/concepts/TechStackMigration.md",
@@ -66,7 +66,7 @@
     },
     {
       "id": "concepts/PrintDisplay",
-      "label": "PrintDisplay (\uc778\uc1c4 \ud45c\uc2dc \uac1c\uc120)",
+      "label": "PrintDisplay (인쇄 표시 개선)",
       "type": "concept",
       "color": "#8BC34A",
       "path": "wiki/concepts/PrintDisplay.md",
@@ -74,7 +74,7 @@
     },
     {
       "id": "concepts/RoundRobinLeague",
-      "label": "RoundRobinLeague (\uc870\ubcc4 \ub9ac\uadf8\uc804)",
+      "label": "RoundRobinLeague (조별 리그전)",
       "type": "concept",
       "color": "#8BC34A",
       "path": "wiki/concepts/RoundRobinLeague.md",
@@ -82,7 +82,7 @@
     },
     {
       "id": "concepts/DeploymentArchitecture",
-      "label": "DeploymentArchitecture (\ubc30\ud3ec \uc544\ud0a4\ud14d\ucc98)",
+      "label": "DeploymentArchitecture (배포 아키텍처)",
       "type": "concept",
       "color": "#673AB7",
       "path": "wiki/concepts/DeploymentArchitecture.md",
@@ -106,7 +106,7 @@
     },
     {
       "id": "concepts/PlayerRanking",
-      "label": "PlayerRanking (\uc120\uc218 \ub7ad\ud0b9 \uc2dc\uc2a4\ud15c)",
+      "label": "PlayerRanking (선수 랭킹 시스템)",
       "type": "concept",
       "color": "#8BC34A",
       "path": "wiki/concepts/PlayerRanking.md",
@@ -114,7 +114,7 @@
     },
     {
       "id": "concepts/PlayerVerification",
-      "label": "PlayerVerification (\uc120\uc218 \uac80\uc99d \uc2dc\uc2a4\ud15c)",
+      "label": "PlayerVerification (선수 검증 시스템)",
       "type": "concept",
       "color": "#8BC34A",
       "path": "wiki/concepts/PlayerVerification.md",
@@ -122,7 +122,7 @@
     },
     {
       "id": "concepts/TournamentBracket",
-      "label": "TournamentBracket (\ubcf8\uc120 \ub300\uc9c4\ud45c \ubc0f \uc2dc\ub4dc \ubc30\uce58)",
+      "label": "TournamentBracket (본선 대진표 및 시드 배치)",
       "type": "concept",
       "color": "#8BC34A",
       "path": "wiki/concepts/TournamentBracket.md",
@@ -130,7 +130,7 @@
     },
     {
       "id": "sources/20260424-mafia-codereview-reassessment",
-      "label": "20260424 mafia-codereview-harness \uc2e4\ubb3c CLAUDE.md \ud655\uc778 \ud6c4 \u00a717 \uc7ac\ud3c9\uac00",
+      "label": "20260424 mafia-codereview-harness 실물 CLAUDE.md 확인 후 §17 재평가",
       "type": "source",
       "color": "#009688",
       "path": "wiki/sources/20260424-mafia-codereview-reassessment.md",
@@ -138,7 +138,7 @@
     },
     {
       "id": "sources/20260410-ranking-mysql",
-      "label": "\ub7ad\ud0b9 API MySQL \ub9c8\uc774\uadf8\ub808\uc774\uc158 (2026-04-10)",
+      "label": "랭킹 API MySQL 마이그레이션 (2026-04-10)",
       "type": "source",
       "color": "#8BC34A",
       "path": "wiki/sources/20260410-ranking-mysql.md",
@@ -146,7 +146,7 @@
     },
     {
       "id": "sources/20260423-hyperframes-promo-video",
-      "label": "20260423 HyperFrames tt-result 15\ucd08 \ud64d\ubcf4 \uc601\uc0c1 \uc81c\uc791",
+      "label": "20260423 HyperFrames tt-result 15초 홍보 영상 제작",
       "type": "source",
       "color": "#009688",
       "path": "wiki/sources/20260423-hyperframes-promo-video.md",
@@ -154,7 +154,7 @@
     },
     {
       "id": "sources/20260413-ranking-province-fix-final",
-      "label": "20260413 \ub7ad\ud0b9 \uc2dc\ub3c4 \uc218\uc815 \ubc0f \ubc84\ud2bc \uc0ad\uc81c, \ucd5c\uc885 \ubc31\uc5c5",
+      "label": "20260413 랭킹 시도 수정 및 버튼 삭제, 최종 백업",
       "type": "source",
       "color": "#8BC34A",
       "path": "wiki/sources/20260413-ranking-province-fix-final.md",
@@ -162,7 +162,7 @@
     },
     {
       "id": "sources/20260412-fastapi-migration-kickoff",
-      "label": "FastAPI \ub9c8\uc774\uadf8\ub808\uc774\uc158 \ucc29\uc218 \u2014 \uacc4\ud68d \uc218\ub9bd + \uc778\ud504\ub77c \uc900\ube44 (2026-04-12)",
+      "label": "FastAPI 마이그레이션 착수 — 계획 수립 + 인프라 준비 (2026-04-12)",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260412-fastapi-migration-kickoff.md",
@@ -170,7 +170,7 @@
     },
     {
       "id": "sources/20260414-team-score-validation",
-      "label": "20260414 \ub2e8\uccb4\uc804 \uc138\ud2b8 \uc810\uc218 \uc624\ub958 \uc218\uc815 \ubc0f \uac80\uc99d \ub85c\uc9c1 \ucd94\uac00",
+      "label": "20260414 단체전 세트 점수 오류 수정 및 검증 로직 추가",
       "type": "source",
       "color": "#E91E63",
       "path": "wiki/sources/20260414-team-score-validation.md",
@@ -178,7 +178,7 @@
     },
     {
       "id": "sources/20260425-m1max-cowork-and-m4sellma-sync",
-      "label": "20260425 M1 Max Cowork \ud504\ub808\uc784\uc6cc\ud06c \ub3c4\uc785 \ud310\ub2e8 + m4sellma git baseline \ud655\ub9bd",
+      "label": "20260425 M1 Max Cowork 프레임워크 도입 판단 + m4sellma git baseline 확립",
       "type": "source",
       "color": "#009688",
       "path": "wiki/sources/20260425-m1max-cowork-and-m4sellma-sync.md",
@@ -186,7 +186,7 @@
     },
     {
       "id": "sources/20260418-bracket-alignment-fix",
-      "label": "\ub300\uc9c4\ud45c \uc5b4\uadf8\ub7ec\uc9d0 \uc218\uc815 \ubc0f 64\uac15 \ud55c \uc7a5 \ucd9c\ub825",
+      "label": "대진표 어그러짐 수정 및 64강 한 장 출력",
       "type": "source",
       "color": "#8BC34A",
       "path": "wiki/sources/20260418-bracket-alignment-fix.md",
@@ -194,7 +194,7 @@
     },
     {
       "id": "sources/20260414-tt-result-design",
-      "label": "20260414 \ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c(tt-result) \ub514\uc790\uc778 \ubb38\uc11c \ud655\uc815",
+      "label": "20260414 탁구경기결과관리시스템(tt-result) 디자인 문서 확정",
       "type": "source",
       "color": "#E91E63",
       "path": "wiki/sources/20260414-tt-result-design.md",
@@ -202,7 +202,7 @@
     },
     {
       "id": "sources/20260414-ranking-player-fixes",
-      "label": "20260414 \ub7ad\ud0b9 \uc120\uc218 \uc815\ubcf4 \uc218\uc815 \ubc0f \uc911\ubcf5 \ud569\uc0b0",
+      "label": "20260414 랭킹 선수 정보 수정 및 중복 합산",
       "type": "source",
       "color": "#8BC34A",
       "path": "wiki/sources/20260414-ranking-player-fixes.md",
@@ -210,7 +210,7 @@
     },
     {
       "id": "sources/20260418-ktta-web-analysis",
-      "label": "KTTA \uacf5\uc2dd \uc6f9\uc0ac\uc774\ud2b8 \ubd84\uc11d (ktt.or.kr / koreatabletennis.com)",
+      "label": "KTTA 공식 웹사이트 분석 (ktt.or.kr / koreatabletennis.com)",
       "type": "source",
       "color": "#00BCD4",
       "path": "wiki/sources/20260418-ktta-web-analysis.md",
@@ -218,7 +218,7 @@
     },
     {
       "id": "sources/20260423-m4sellma-hot-standby",
-      "label": "20260423 m4sellma \ud56b \uc2a4\ud0e0\ubc14\uc774 \uc804\ud658 \u2014 VPS \ub3c5\ub9bd \ubcf5\uc81c",
+      "label": "20260423 m4sellma 핫 스탠바이 전환 — VPS 독립 복제",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260423-m4sellma-hot-standby.md",
@@ -226,7 +226,7 @@
     },
     {
       "id": "sources/20260411-scoresheet-fix",
-      "label": "\ub2e8\uccb4\uc804 \uae30\ub85d\uc9c0 \uad50\ubcf4\uc0dd\uba85\ucef5 \uae30\uc900 \uc218\uc815 & 16\uac15 game_format \ubc84\uadf8 \uc218\uc815",
+      "label": "단체전 기록지 교보생명컵 기준 수정 & 16강 game_format 버그 수정",
       "type": "source",
       "color": "#E91E63",
       "path": "wiki/sources/20260411-scoresheet-fix.md",
@@ -234,7 +234,7 @@
     },
     {
       "id": "sources/20260416-mindvault-hook-score-fix",
-      "label": "20260416 MindVault \ud6c5 \uc815\ub9ac + \ub2e8\uccb4\uc804 \uc810\uc218 \uc218\uc815 + \uc11c\ubc84 \uac80\uc99d",
+      "label": "20260416 MindVault 훅 정리 + 단체전 점수 수정 + 서버 검증",
       "type": "source",
       "color": "#E91E63",
       "path": "wiki/sources/20260416-mindvault-hook-score-fix.md",
@@ -242,7 +242,7 @@
     },
     {
       "id": "sources/20260416-tt-result-deployment",
-      "label": "20260416 tt-result.sellma.kr \ubc30\ud3ec \ubc0f \uc2dc\uc2a4\ud15c \ud1b5\ud569",
+      "label": "20260416 tt-result.sellma.kr 배포 및 시스템 통합",
       "type": "source",
       "color": "#E91E63",
       "path": "wiki/sources/20260416-tt-result-deployment.md",
@@ -250,7 +250,7 @@
     },
     {
       "id": "sources/20260411-bracket-fix-ngtos",
-      "label": "20260411 \ube0c\ub798\ud0b7 \ubc84\uadf8 \uc218\uc815 & ngtos_tt DB \ubd84\uc11d",
+      "label": "20260411 브래킷 버그 수정 & ngtos_tt DB 분석",
       "type": "source",
       "color": "#8BC34A",
       "path": "wiki/sources/20260411-bracket-fix-ngtos.md",
@@ -258,7 +258,7 @@
     },
     {
       "id": "sources/20260426-nanoclaw-chief-of-staff",
-      "label": "20260426 \ub098\ub178\ud074\ub85c\ub4dc \ube44\uc11c\uc2e4\uc7a5 \ub3c4\uc785 + \uc6b4\uc601 \uc704\uacc4 \uc7ac\ud3b8",
+      "label": "20260426 나노클로드 비서실장 도입 + 운영 위계 재편",
       "type": "source",
       "color": "#009688",
       "path": "wiki/sources/20260426-nanoclaw-chief-of-staff.md",
@@ -266,7 +266,7 @@
     },
     {
       "id": "sources/20260414-ranking-president-cup-add",
-      "label": "20260414 \ub300\ud1b5\ub839\uae30 \uc810\uc218 \ucd94\uac00 \ubc0f \ub7ad\ud0b9 UI \uc5c5\ub370\uc774\ud2b8",
+      "label": "20260414 대통령기 점수 추가 및 랭킹 UI 업데이트",
       "type": "source",
       "color": "#8BC34A",
       "path": "wiki/sources/20260414-ranking-president-cup-add.md",
@@ -274,7 +274,7 @@
     },
     {
       "id": "sources/20260413-university-league-build",
-      "label": "\ub300\ud559\uc5f0\ub9f9 \uc2dc\uc2a4\ud15c \uad6c\ucd95 + DB \ubd84\ub9ac + \uc5d1\uc140 \uc5c5\ub85c\ub4dc (2026-04-13)",
+      "label": "대학연맹 시스템 구축 + DB 분리 + 엑셀 업로드 (2026-04-13)",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260413-university-league-build.md",
@@ -282,7 +282,7 @@
     },
     {
       "id": "sources/20260419-qa-report-fixes",
-      "label": "QA \uac80\uc99d \ubc0f \ubcf4\uc548/\uc778\uc99d \uc218\uc815 (2026-04-19)",
+      "label": "QA 검증 및 보안/인증 수정 (2026-04-19)",
       "type": "source",
       "color": "#E91E63",
       "path": "wiki/sources/20260419-qa-report-fixes.md",
@@ -290,7 +290,7 @@
     },
     {
       "id": "sources/20260411-backup-restore-awards-fix",
-      "label": "20260411 \ubc31\uc5c5 \ubcf5\uc6d0 & \uc2dc\uc0c1 \ud0ed \uc11c\ube0c\ud0ed \uc815\ub9ac",
+      "label": "20260411 백업 복원 & 시상 탭 서브탭 정리",
       "type": "source",
       "color": "#E91E63",
       "path": "wiki/sources/20260411-backup-restore-awards-fix.md",
@@ -298,7 +298,7 @@
     },
     {
       "id": "sources/20260412-ranking-hoejanggi-update",
-      "label": "20260412 \ud68c\uc7a5\uae30 \ub7ad\ud0b9 \ud3ec\uc778\ud2b8 \uc0b0\ucd9c \ubc0f DB \uc5c5\ub370\uc774\ud2b8",
+      "label": "20260412 회장기 랭킹 포인트 산출 및 DB 업데이트",
       "type": "source",
       "color": "#8BC34A",
       "path": "wiki/sources/20260412-ranking-hoejanggi-update.md",
@@ -306,7 +306,7 @@
     },
     {
       "id": "sources/20260423-server-rules-and-adoption-policy",
-      "label": "20260423 \uc11c\ubc84 \uaddc\uce59 + \ub3c4\uc785 \uc804 \ubd84\uc11d \uc815\ucc45 \uc81c\uc815",
+      "label": "20260423 서버 규칙 + 도입 전 분석 정책 제정",
       "type": "source",
       "color": "#009688",
       "path": "wiki/sources/20260423-server-rules-and-adoption-policy.md",
@@ -314,7 +314,7 @@
     },
     {
       "id": "sources/20260411-ktta-db-analysis",
-      "label": "KTTA \ub300\ud68c\uc6b4\uc601\uc2dc\uc2a4\ud15c DB \uad6c\uc870 \ubd84\uc11d (2026-04-11)",
+      "label": "KTTA 대회운영시스템 DB 구조 분석 (2026-04-11)",
       "type": "source",
       "color": "#FF5722",
       "path": "wiki/sources/20260411-ktta-db-analysis.md",
@@ -322,7 +322,7 @@
     },
     {
       "id": "sources/20260423-security-audit-response",
-      "label": "20260423 m4sellma \ubcf4\uc548 \uc810\uac80 \ubcf4\uace0\uc11c \ub300\uc751 + UniFi \ud3ec\uc6cc\ub529 \uc2e4\uce21",
+      "label": "20260423 m4sellma 보안 점검 보고서 대응 + UniFi 포워딩 실측",
       "type": "source",
       "color": "#009688",
       "path": "wiki/sources/20260423-security-audit-response.md",
@@ -330,7 +330,7 @@
     },
     {
       "id": "sources/20260422-bluekiwi-mcp-setup",
-      "label": "20260422 BlueKiwi MCP \uc11c\ubc84 \uc124\uce58 \ubc0f \uc5f0\uacb0",
+      "label": "20260422 BlueKiwi MCP 서버 설치 및 연결",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260422-bluekiwi-mcp-setup.md",
@@ -338,7 +338,7 @@
     },
     {
       "id": "sources/20260422-calendar-ktta-schedule",
-      "label": "20260422 \uad6c\uae00 \uce98\ub9b0\ub354 \ub4f1\ub85d \ubc0f KTTA \uc804\ubb38 \ub300\ud68c \uc77c\uc815 \ubd84\uc11d",
+      "label": "20260422 구글 캘린더 등록 및 KTTA 전문 대회 일정 분석",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260422-calendar-ktta-schedule.md",
@@ -346,7 +346,7 @@
     },
     {
       "id": "sources/20260413-university-awards-final",
-      "label": "\ub300\ud559\uc5f0\ub9f9 \uc2dc\uc0c1 + \uc77c\uc815 + \uac80\uc0ac\uacb0\uacfc + \ub9c8\ubb34\ub9ac (2026-04-13)",
+      "label": "대학연맹 시상 + 일정 + 검사결과 + 마무리 (2026-04-13)",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260413-university-awards-final.md",
@@ -362,7 +362,7 @@
     },
     {
       "id": "sources/20260424-mafia-codereview-deferred",
-      "label": "20260424 mafia-codereview-harness plugin \ub3c4\uc785 \uc804 \ubd84\uc11d \u2192 \ub300\ud68c \ud6c4 \uc7ac\uac80\ud1a0",
+      "label": "20260424 mafia-codereview-harness plugin 도입 전 분석 → 대회 후 재검토",
       "type": "source",
       "color": "#009688",
       "path": "wiki/sources/20260424-mafia-codereview-deferred.md",
@@ -370,7 +370,7 @@
     },
     {
       "id": "sources/20260410-print-display",
-      "label": "\ub300\uc9c4\ud45c/\uae30\ub85d\uc9c0 \ucd9c\ub825 \ud45c\uc2dc \uac1c\uc120 \uc791\uc5c5 (2026-04-10)",
+      "label": "대진표/기록지 출력 표시 개선 작업 (2026-04-10)",
       "type": "source",
       "color": "#8BC34A",
       "path": "wiki/sources/20260410-print-display.md",
@@ -378,7 +378,7 @@
     },
     {
       "id": "sources/20260423-fe-wiring-completion",
-      "label": "20260423 BlueKiwi WF:4 Step 6 FE \ubc30\uc120 \uc644\uc131 + \ud504\ub85c\uc138\uc2a4 \ub9ac\ubdf0",
+      "label": "20260423 BlueKiwi WF:4 Step 6 FE 배선 완성 + 프로세스 리뷰",
       "type": "source",
       "color": "#E91E63",
       "path": "wiki/sources/20260423-fe-wiring-completion.md",
@@ -386,7 +386,7 @@
     },
     {
       "id": "sources/20260422-terminal-mindvault-fix",
-      "label": "20260422 MindVault \ud6c5 \uc218\uc815 + Windows \ud130\ubbf8\ub110 \uc120\ud0dd",
+      "label": "20260422 MindVault 훅 수정 + Windows 터미널 선택",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260422-terminal-mindvault-fix.md",
@@ -394,7 +394,7 @@
     },
     {
       "id": "sources/20260417-ktta-transmission-analysis",
-      "label": "20260417 \ub300\ud55c\ud0c1\uad6c\ud611\ud68c \uacbd\uae30\uacb0\uacfc \uc804\uc1a1 \uc2dc\uc2a4\ud15c \ubd84\uc11d",
+      "label": "20260417 대한탁구협회 경기결과 전송 시스템 분석",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260417-ktta-transmission-analysis.md",
@@ -402,7 +402,7 @@
     },
     {
       "id": "sources/20260417-ktta-auto-transfer-plan",
-      "label": "20260417 KTTA \uacbd\uae30\uacb0\uacfc \uc790\ub3d9 \uc804\uc1a1 \uacc4\ud68d",
+      "label": "20260417 KTTA 경기결과 자동 전송 계획",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260417-ktta-auto-transfer-plan.md",
@@ -410,7 +410,7 @@
     },
     {
       "id": "sources/20260426-operating-model-and-venue-fix",
-      "label": "20260426 \uc6b4\uc601 \ubaa8\ub378 \ud655\uc815 + \ub300\ud559\uc5f0\ub9f9\uc804 \uc7a5\uc18c \uc218\uc815",
+      "label": "20260426 운영 모델 확정 + 대학연맹전 장소 수정",
       "type": "source",
       "color": "#009688",
       "path": "wiki/sources/20260426-operating-model-and-venue-fix.md",
@@ -418,7 +418,7 @@
     },
     {
       "id": "sources/20260424-operational-workflow",
-      "label": "20260424 \uc6b4\uc601 \uc6cc\ud06c\ud50c\ub85c\uc6b0 \u00a77 \uc81c\uc815",
+      "label": "20260424 운영 워크플로우 §7 제정",
       "type": "source",
       "color": "#009688",
       "path": "wiki/sources/20260424-operational-workflow.md",
@@ -426,7 +426,7 @@
     },
     {
       "id": "sources/20260424-brand-rollout",
-      "label": "20260424 TT-Result \ube0c\ub79c\ub4dc \uc2e4\ubc30\ud3ec (VPS + m4sellma)",
+      "label": "20260424 TT-Result 브랜드 실배포 (VPS + m4sellma)",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260424-brand-rollout.md",
@@ -434,7 +434,7 @@
     },
     {
       "id": "sources/20260426-macbookair-github-briefing",
-      "label": "20260426 MacBook Air GitHub \ube0c\ub9ac\ud551 + \ub098\ub178\ud074\ub85c\ub4dc \ud604\uc7a5 \uc778\uacc4",
+      "label": "20260426 MacBook Air GitHub 브리핑 + 나노클로드 현장 인계",
       "type": "source",
       "color": "#009688",
       "path": "wiki/sources/20260426-macbookair-github-briefing.md",
@@ -442,7 +442,7 @@
     },
     {
       "id": "sources/52nd-president-cup",
-      "label": "\uc81c52\ud68c \ud68c\uc7a5\uae30 \uc804\uad6d \ucd08\ub4f1\ud559\uad50 \ud0c1\uad6c\ub300\ud68c \uc6b4\uc601 \uc2dc\uc2a4\ud15c",
+      "label": "제52회 회장기 전국 초등학교 탁구대회 운영 시스템",
       "type": "source",
       "color": "#8BC34A",
       "path": "wiki/sources/52nd-president-cup.md",
@@ -450,7 +450,7 @@
     },
     {
       "id": "sources/20260410-strategy-next-phase",
-      "label": "2026-04-10 \uc804\ub7b5 \ubd84\uc11d \ubc0f \ub2e4\uc74c \ub2e8\uacc4 \uacc4\ud68d",
+      "label": "2026-04-10 전략 분석 및 다음 단계 계획",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260410-strategy-next-phase.md",
@@ -458,7 +458,7 @@
     },
     {
       "id": "sources/20260422-skill-evaluation",
-      "label": "20260422 Claude Code \uc678\ubd80 \uc2a4\ud0ac \ud3c9\uac00",
+      "label": "20260422 Claude Code 외부 스킬 평가",
       "type": "source",
       "color": "#673AB7",
       "path": "wiki/sources/20260422-skill-evaluation.md",
@@ -466,7 +466,7 @@
     },
     {
       "id": "sources/20260413-university-complete",
-      "label": "\ub300\ud559\uc5f0\ub9f9 \uc2dc\uc2a4\ud15c \uc644\uc131 \u2014 \uc804 \uc885\ubaa9 \ub300\uc9c4\ud45c + \uac80\uc0ac\uacb0\uacfc + \uc77c\uc815 (2026-04-13)",
+      "label": "대학연맹 시스템 완성 — 전 종목 대진표 + 검사결과 + 일정 (2026-04-13)",
       "type": "source",
       "color": "#8BC34A",
       "path": "wiki/sources/20260413-university-complete.md",
@@ -474,7 +474,7 @@
     },
     {
       "id": "syntheses/20260420-src-migration",
-      "label": "src/ \uad6c\uc870 \ub9c8\uc774\uadf8\ub808\uc774\uc158",
+      "label": "src/ 구조 마이그레이션",
       "type": "synthesis",
       "color": "#673AB7",
       "path": "wiki/syntheses/20260420-src-migration.md",
@@ -482,23 +482,23 @@
     },
     {
       "id": "syntheses/20260417-codex-review-compat-router",
-      "label": "Codex \ucf54\ub4dc \ub9ac\ubdf0 \u2014 \ud638\ud658 \ub77c\uc6b0\ud130 \ubcf4\uc548 \ubc0f \ub300\uc9c4\ud45c \ubb38\uc81c",
+      "label": "Codex 코드 리뷰 — 호환 라우터 보안 및 대진표 문제",
       "type": "synthesis",
       "color": "#8BC34A",
       "path": "wiki/syntheses/20260417-codex-review-compat-router.md",
       "group": 2
     },
     {
-      "id": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
-      "label": "\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c \uc5c5\ub370\uc774\ud2b8 \uacc4\ud68d",
+      "id": "syntheses/탁구경기결과관리시스템-업데이트-계획",
+      "label": "탁구경기결과관리시스템 업데이트 계획",
       "type": "synthesis",
       "color": "#E91E63",
-      "path": "wiki/syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d.md",
+      "path": "wiki/syntheses/탁구경기결과관리시스템-업데이트-계획.md",
       "group": 0
     },
     {
       "id": "entities/KTTA-TOS",
-      "label": "KTTA-TOS (\ub300\ud68c\uc6b4\uc601\uc2dc\uc2a4\ud15c)",
+      "label": "KTTA-TOS (대회운영시스템)",
       "type": "entity",
       "color": "#673AB7",
       "path": "wiki/entities/KTTA-TOS.md",
@@ -506,7 +506,7 @@
     },
     {
       "id": "entities/KETTF",
-      "label": "KETTF (\ud55c\uad6d\ucd08\ub4f1\ud0c1\uad6c\uc5f0\ub9f9)",
+      "label": "KETTF (한국초등탁구연맹)",
       "type": "entity",
       "color": "#8BC34A",
       "path": "wiki/entities/KETTF.md",
@@ -514,7 +514,7 @@
     },
     {
       "id": "entities/Gnuboard6",
-      "label": "Gnuboard6 (\uadf8\ub204\ubcf4\ub4dc6)",
+      "label": "Gnuboard6 (그누보드6)",
       "type": "entity",
       "color": "#673AB7",
       "path": "wiki/entities/Gnuboard6.md",
@@ -522,7 +522,7 @@
     },
     {
       "id": "entities/Sellma",
-      "label": "Sellma (sellma.kr \ud50c\ub7ab\ud3fc)",
+      "label": "Sellma (sellma.kr 플랫폼)",
       "type": "entity",
       "color": "#673AB7",
       "path": "wiki/entities/Sellma.md",
@@ -530,7 +530,7 @@
     },
     {
       "id": "entities/UniversityLeague",
-      "label": "UniversityLeague (\ub300\ud559\uc5f0\ub9f9 \ub300\ud68c \uc2dc\uc2a4\ud15c)",
+      "label": "UniversityLeague (대학연맹 대회 시스템)",
       "type": "entity",
       "color": "#673AB7",
       "path": "wiki/entities/UniversityLeague.md",
@@ -538,11 +538,35 @@
     },
     {
       "id": "entities/52ndPresidentCup",
-      "label": "\uc81c52\ud68c \ud68c\uc7a5\uae30 \uc804\uad6d \ucd08\ub4f1\ud559\uad50 \ud0c1\uad6c\ub300\ud68c",
+      "label": "제52회 회장기 전국 초등학교 탁구대회",
       "type": "entity",
       "color": "#8BC34A",
       "path": "wiki/entities/52ndPresidentCup.md",
       "group": 2
+    },
+    {
+      "id": "concepts/TwoFactorAuth",
+      "label": "TwoFactorAuth",
+      "type": "concept",
+      "color": "#FF9800",
+      "path": "wiki/concepts/TwoFactorAuth.md",
+      "group": 1
+    },
+    {
+      "id": "sources/20260503-d1-session-migration-and-verification",
+      "label": "20260503 D+1 세션",
+      "type": "source",
+      "color": "#2196F3",
+      "path": "wiki/sources/20260503-d1-session-migration-and-verification.md",
+      "group": 0
+    },
+    {
+      "id": "sources/20260503-reconnect-fzip-github-sync",
+      "label": "20260503 재연결 세션",
+      "type": "source",
+      "color": "#2196F3",
+      "path": "wiki/sources/20260503-reconnect-fzip-github-sync.md",
+      "group": 0
     }
   ],
   "edges": [
@@ -2080,35 +2104,35 @@
       "confidence": 1.0
     },
     {
-      "from": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "from": "syntheses/탁구경기결과관리시스템-업데이트-계획",
       "to": "concepts/TechStackMigration",
       "type": "EXTRACTED",
       "color": "#555555",
       "confidence": 1.0
     },
     {
-      "from": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "from": "syntheses/탁구경기결과관리시스템-업데이트-계획",
       "to": "concepts/DeploymentArchitecture",
       "type": "EXTRACTED",
       "color": "#555555",
       "confidence": 1.0
     },
     {
-      "from": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "from": "syntheses/탁구경기결과관리시스템-업데이트-계획",
       "to": "concepts/TeamMatch",
       "type": "EXTRACTED",
       "color": "#555555",
       "confidence": 1.0
     },
     {
-      "from": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "from": "syntheses/탁구경기결과관리시스템-업데이트-계획",
       "to": "entities/UniversityLeague",
       "type": "EXTRACTED",
       "color": "#555555",
       "confidence": 1.0
     },
     {
-      "from": "syntheses/\ud0c1\uad6c\uacbd\uae30\uacb0\uacfc\uad00\ub9ac\uc2dc\uc2a4\ud15c-\uc5c5\ub370\uc774\ud2b8-\uacc4\ud68d",
+      "from": "syntheses/탁구경기결과관리시스템-업데이트-계획",
       "to": "concepts/FieldOperationLessons",
       "type": "EXTRACTED",
       "color": "#555555",
@@ -2271,6 +2295,55 @@
     {
       "from": "entities/52ndPresidentCup",
       "to": "concepts/TournamentBracket",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260503-d1-session-migration-and-verification",
+      "to": "concepts/TwoFactorAuth",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260503-d1-session-migration-and-verification",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260503-d1-session-migration-and-verification",
+      "to": "concepts/ServerRules",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260503-d1-session-migration-and-verification",
+      "to": "concepts/AdoptionPolicy",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260503-reconnect-fzip-github-sync",
+      "to": "concepts/DeploymentArchitecture",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "sources/20260503-reconnect-fzip-github-sync",
+      "to": "concepts/TwoFactorAuth",
+      "type": "EXTRACTED",
+      "color": "#555555",
+      "confidence": 1.0
+    },
+    {
+      "from": "overview",
+      "to": "concepts/TwoFactorAuth",
       "type": "EXTRACTED",
       "color": "#555555",
       "confidence": 1.0
